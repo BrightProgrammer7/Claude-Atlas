@@ -67,7 +67,7 @@ export function createCitationFilter() {
       .split(/[\s,;]+/)
       .filter(Boolean);
     const known = ids.filter((id) => KNOWN_CITATION_IDS.has(id));
-    if (known.length === 0 || known.length !== ids.length) return "";
+    if (known.length === 0) return "";
     for (const id of known) if (!cited.includes(id)) cited.push(id);
     return known.map((id) => `[${id}]`).join("");
   }

@@ -85,6 +85,14 @@ const interfaceTools = {
   }),
 };
 
+// Gateway failures carry a status code and a short public message (for example a billing
+// block); neither contains a credential, so they are safe and useful to log.
+function describeError(error: unknown): string {
+  if (!(error instanceof Error)) return "unknown";
+  const statusCode = (error as { statusCode?: number }).statusCode;
+  return `${error.name} ${statusCode ?? ""} ${error.message.slice(0, 200)}`.trim();
+}
+
 function errorResponse(error: string, status: number, headers: Record<string, string> = {}) {
   return Response.json({ error }, { status, headers: { ...NO_STORE, ...headers } });
 }
@@ -140,13 +148,13 @@ export async function POST(request: Request) {
             const action = validateAction(part.toolName, part.input);
             if (action) send({ type: "action", action });
           } else if (part.type === "error") {
-            console.error(`ask stream error: ${part.error instanceof Error ? part.error.name : "unknown"}`);
+            console.error(`ask stream error: ${describeError(part.error)}`);
             send({ type: "error", message: "The atlas could not answer right now." });
           }
         }
         send({ type: "done", cited: citationFilter.finish() });
       } catch (error) {
-        console.error(`ask route failed: ${error instanceof Error ? error.name : "unknown"}`);
+        console.error(`ask route failed: ${describeError(error)}`);
         send({ type: "error", message: "The atlas could not answer right now." });
       } finally {
         try {

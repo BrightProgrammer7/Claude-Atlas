@@ -305,6 +305,12 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
     });
   }, [selectedNodeId, sidebarTab]);
 
+  // Both tabs share one scroll area, so a switch starts from the top instead of wherever the other tab was left.
+  const showTab = (tab: SidebarTab) => {
+    if (timelineRef.current) timelineRef.current.scrollTop = 0;
+    setSidebarTab(tab);
+  };
+
   const toggleLane = (lane: Lane) => {
     narration.endTour();
     setActiveLanes((current) => ({ ...current, [lane]: !current[lane] }));
@@ -436,7 +442,7 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
     }
     if (beliefsById.has(id)) {
       setHighlightedBeliefId(id);
-      setSidebarTab("myth");
+      showTab("myth");
       return;
     }
     const place = placesById.get(id);
@@ -621,7 +627,7 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
               id="tab-timeline"
               aria-selected={sidebarTab === "timeline"}
               aria-controls="panel-timeline"
-              onClick={() => setSidebarTab("timeline")}
+              onClick={() => showTab("timeline")}
               className={tabClassName("timeline")}
             >
               Timeline
@@ -632,7 +638,7 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
               id="tab-myth"
               aria-selected={sidebarTab === "myth"}
               aria-controls="panel-myth"
-              onClick={() => setSidebarTab("myth")}
+              onClick={() => showTab("myth")}
               className={tabClassName("myth")}
             >
               Myth vs source

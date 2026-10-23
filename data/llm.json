@@ -4,5 +4,5 @@
   "auth": "vercel-oidc",
   "measured_ttft_ms": [],
   "verified": false,
-  "note": "Not verified. The environment pull was denied by the local credentials-file hook and the gateway rejects unauthenticated calls (401), so no TTFT was measured. Model picked from the live gateway catalog on 2026-10-22: newest Haiku-tier Claude, 1M context, 0.10 / 0.50 USD per MTok input / output. Its reasoning_options include effort 'none'; set reasoning.effort to none on the voice route to keep the first token fast. Re-measure from the deployed route, where Vercel injects the OIDC token."
+  "note": "Not verified end to end. The deployed /api/ask route authenticates with Vercel OIDC but AI Gateway answers 403 customer_verification_required: the owner's Vercel team needs a credit card on file (Vercel dashboard, AI Gateway) before any model call succeeds, so no TTFT was measured. Model picked from the live gateway catalog on 2026-10-22: newest Haiku-tier Claude, 1M context. The route sends providerOptions anthropic thinking disabled and gateway caching auto; both are untested against the live model, so if the first real call returns 400, remove the anthropic thinking option."
 }
