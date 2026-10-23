@@ -3,7 +3,8 @@
 // For every node in data/nodes.json: download its page (raw HTML cached under
 // data/snapshots/), extract the main article text, and write the first 2,500 characters to
 // data/sources/<id>.txt. Then write data/kb.json: one entry per node (metadata plus a
-// 1,200-character excerpt), then the entries of data/beliefs.json (belief, verdict and the
+// 1,200-character excerpt), then the entries of data/critic.json (RSP policy nodes and critic
+// nodes, with the verbatim quote as excerpt), then the entries of data/beliefs.json (belief, verdict and the
 // corrected statement, copied verbatim), then the entries of data/places.json when it exists.
 //
 // Usage: node scripts/build-kb.mjs [--refresh]
@@ -18,6 +19,7 @@ const projectRoot = fileURLToPath(new URL("..", import.meta.url));
 const nodesPath = `${projectRoot}data/nodes.json`;
 const placesPath = `${projectRoot}data/places.json`;
 const beliefsPath = `${projectRoot}data/beliefs.json`;
+const criticPath = `${projectRoot}data/critic.json`;
 const snapshotsDirectory = `${projectRoot}data/snapshots`;
 const sourcesDirectory = `${projectRoot}data/sources`;
 const knowledgeBasePath = `${projectRoot}data/kb.json`;
@@ -303,6 +305,37 @@ async function loadPlaceEntries() {
   }));
 }
 
+// Policy nodes (RSP versions, ASL activation) and critic nodes. Nothing is downloaded: the
+// excerpt is the verbatim quote already stored in data/critic.json, plus who said it and which
+// event it targets, so "what do critics say" is answered from the same text the timeline shows.
+async function loadCriticEntries(nodeTitlesById) {
+  const rawCritic = await readFileIfExists(criticPath);
+  if (rawCritic === null) return [];
+  const criticNodes = JSON.parse(rawCritic);
+  // A critic can target an RSP node from this same file, so its title must be findable too.
+  const titlesById = new Map([...nodeTitlesById, ...criticNodes.map((node) => [node.id, node.title])]);
+  return criticNodes.map((node) => {
+    const targetId = node.target_id ?? node.responds_to ?? null;
+    const sentences = [];
+    if (node.attributed_to) sentences.push(`Said by ${node.attributed_to}.`);
+    if (targetId) {
+      const verb = node.lane === "critic" ? "Targets" : "Replies to";
+      sentences.push(`${verb} [${targetId}] ${titlesById.get(targetId) ?? ""}.`.replace(" .", "."));
+    }
+    sentences.push(`Quote: "${node.quote}"`);
+    if (node.anthropic_url) sentences.push(`Anthropic document: ${node.anthropic_url}`);
+    return {
+      id: node.id,
+      lane: node.lane,
+      title: node.title,
+      date: node.date,
+      url: node.url,
+      place: null,
+      excerpt: sentences.join(" "),
+    };
+  });
+}
+
 async function loadBeliefEntries() {
   const rawBeliefs = await readFileIfExists(beliefsPath);
   if (rawBeliefs === null) return [];
@@ -359,12 +392,14 @@ async function main() {
   // Read last, so a places.json written while the pages were downloading is still picked up.
   const placeEntries = await loadPlaceEntries();
   const beliefEntries = await loadBeliefEntries();
-  const knowledgeBase = [...nodeEntries, ...beliefEntries, ...placeEntries];
+  const criticEntries = await loadCriticEntries(new Map(nodes.map((node) => [node.id, node.title])));
+  const knowledgeBase = [...nodeEntries, ...criticEntries, ...beliefEntries, ...placeEntries];
   await writeFileAtomically(knowledgeBasePath, `${JSON.stringify(knowledgeBase, null, 2)}\n`);
 
   console.log(
     `\nWrote ${knowledgeBase.length} entries to data/kb.json ` +
-      `(${nodeEntries.length} nodes, ${beliefEntries.length} beliefs, ${placeEntries.length} places).`,
+      `(${nodeEntries.length} nodes, ${criticEntries.length} policy and critic nodes, ` +
+      `${beliefEntries.length} beliefs, ${placeEntries.length} places).`,
   );
   if (idsWithoutUsableText.length > 0) {
     console.log(`No usable text for ${idsWithoutUsableText.length}: ${idsWithoutUsableText.join(", ")}`);

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "q01",
+    "q": "According to Anthropic’s own announcement, what had Anthropic done toward an initial public offering?",
+    "options": [
+      "Listed its common stock on a public exchange",
+      "Confidentially submitted a draft Form S-1 to the SEC for a proposed IPO",
+      "Published a public prospectus with a price range",
+      "Announced that it had decided not to go public"
+    ],
+    "answer_index": 1,
+    "explain": "The announcement says Anthropic confidentially submitted a draft registration statement on Form S-1 for a proposed initial public offering, which gives it the option to go public after the SEC completes its review. A draft submission is not a listing.",
+    "cites": [
+      "belief-ipo"
+    ],
+    "evidence": [
+      {
+        "id": "belief-ipo",
+        "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+        "retrieved_at": "2026-10-23T01:36:46Z",
+        "quote": "confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock"
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "q": "How does Anthropic describe Project Glasswing in its June 2026 expansion post?",
+    "options": [
+      "A collaborative effort to secure the world’s most important software",
+      "A purpose-built military defense model sold to large technology companies",
+      "An early-access chatbot program limited to big tech companies",
+      "A bug bounty paid to outside researchers"
+    ],
+    "answer_index": 0,
+    "explain": "The post calls Glasswing a collaborative effort to secure the world’s most important software, built around access to Claude Mythos Preview, and extended it to approximately 150 new organizations in industries such as power, water, healthcare, communications and hardware.",
+    "cites": [
+      "belief-glasswing",
+      "expanding-project-glasswing"
+    ],
+    "evidence": [
+      {
+        "id": "belief-glasswing",
+        "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "retrieved_at": "2026-10-23T01:36:50Z",
+        "quote": "The group covers several industries that weren’t well represented in our initial cohort, such as power, water, healthcare, communications, and hardware."
+      },
+      {
+        "id": "expanding-project-glasswing",
+        "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "we announced that roughly 50 initial partners had access to Claude Mythos Preview"
+      },
+      {
+        "id": "expanding-project-glasswing",
+        "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "Project Glasswing is our collaborative effort to secure the world’s most important software."
+      },
+      {
+        "id": "expanding-project-glasswing",
+        "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "we’re extending the partnership to approximately 150 new organizations. Each one will need to meet our security requirements before they gain access."
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "q": "How does Anthropic relate Claude Fable 5 to Claude Mythos 5 in its 9 June 2026 post?",
+    "options": [
+      "Mythos 5 is a smaller, cheaper model distilled from Fable 5",
+      "Mythos 5 and Fable 5 are two names for the same model with identical safeguards",
+      "Mythos 5 is the same underlying model as Fable 5, with safeguards lifted in some areas",
+      "Fable 5 is an older model that Mythos 5 replaces"
+    ],
+    "answer_index": 2,
+    "explain": "The post says Mythos 5 is the same underlying model as Fable 5, with safeguards lifted in some areas, and prices both at $10 and $50 per million input and output tokens. So they are not two models of different size, and they do not carry identical safeguards.",
+    "cites": [
+      "claude-fable-5-mythos-5"
+    ],
+    "evidence": [
+      {
+        "id": "claude-fable-5-mythos-5",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "It’s the same underlying model as Fable 5, but with the safeguards lifted in some areas."
+      },
+      {
+        "id": "claude-fable-5-mythos-5",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "Fable 5 and Mythos 5 are being offered at $10 per million input tokens and $50 per million output tokens—less than half the price of Claude Mythos Preview."
+      },
+      {
+        "id": "claude-fable-5-mythos-5",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "Today’s joint launch is another step towards our goal of bringing advanced AI capabilities to as many users as possible"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "q": "What did Anthropic raise in its Series H, announced on 28 May 2026?",
+    "options": [
+      "$65 billion at a $965 billion post-money valuation",
+      "$13 billion at a $183 billion post-money valuation",
+      "$30 billion at a $380 billion post-money valuation",
+      "$3.5 billion at a $61.5 billion post-money valuation"
+    ],
+    "answer_index": 0,
+    "explain": "The Series H post says Anthropic raised $65 billion at $965 billion post-money. The other options are the amounts in the Series G, Series F and 2025 funding posts.",
+    "cites": [
+      "series-h",
+      "anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "anthropic-raises-series-f-at-usd183b-post-money-valuation",
+      "anthropic-raises-series-e-at-usd61-5b-post-money-valuation"
+    ],
+    "evidence": [
+      {
+        "id": "series-h",
+        "url": "https://www.anthropic.com/news/series-h",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, valuing the company at $965 billion post-money."
+      },
+      {
+        "id": "anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+        "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "We have raised $30 billion in Series G funding led by GIC and Coatue, valuing Anthropic at $380 billion post-money."
+      },
+      {
+        "id": "anthropic-raises-series-f-at-usd183b-post-money-valuation",
+        "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Anthropic has completed a Series F fundraising of $13 billion led by ICONIQ. This financing values Anthropic at $183 billion post-money."
+      },
+      {
+        "id": "anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+        "url": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Anthropic has raised $3.5 billion at a $61.5 billion post-money valuation."
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "q": "Who led Anthropic’s $450 million Series C in 2023?",
+    "options": [
+      "Jaan Tallinn",
+      "Lightspeed Venture Partners",
+      "ICONIQ",
+      "Spark Capital"
+    ],
+    "answer_index": 3,
+    "explain": "The Series C post says the round was led by Spark Capital. Jaan Tallinn led the 2021 Series A, a common mix-up.",
+    "cites": [
+      "anthropic-series-c",
+      "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems"
+    ],
+    "evidence": [
+      {
+        "id": "anthropic-series-c",
+        "url": "https://www.anthropic.com/news/anthropic-series-c",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "we have raised $450 million in Series C funding led by Spark Capital with participation from Google, Salesforce Ventures, Sound Ventures, Zoom Ventures, and others"
+      },
+      {
+        "id": "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+        "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Anthropic, an AI safety and research company, has raised $124 million in a Series A."
+      },
+      {
+        "id": "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+        "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "The Series A round was led by Jaan Tallinn, technology investor and co-founder of Skype."
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "q": "Rahul Patil joined Anthropic as Chief Technology Officer in October 2025. Which company had he most recently been CTO of?",
+    "options": [
+      "Instagram",
+      "Oracle Cloud Infrastructure",
+      "Yahoo",
+      "Stripe"
+    ],
+    "answer_index": 3,
+    "explain": "The announcement says Patil most recently served as CTO of Stripe. Instagram is where Mike Krieger, who joined as Chief Product Officer in 2024, was co-founder and CTO.",
+    "cites": [
+      "rahul-patil-joins-anthropic",
+      "mike-krieger-joins-anthropic"
+    ],
+    "evidence": [
+      {
+        "id": "rahul-patil-joins-anthropic",
+        "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "We're excited to announce that Rahul Patil has joined Anthropic as our Chief Technology Officer."
+      },
+      {
+        "id": "rahul-patil-joins-anthropic",
+        "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Most recently, he served as CTO of Stripe, where he guided the technical organization supporting millions of businesses"
+      },
+      {
+        "id": "mike-krieger-joins-anthropic",
+        "url": "https://www.anthropic.com/news/mike-krieger-joins-anthropic",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Mike Krieger has joined Anthropic as our Chief Product Officer."
+      },
+      {
+        "id": "mike-krieger-joins-anthropic",
+        "url": "https://www.anthropic.com/news/mike-krieger-joins-anthropic",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Mike brings deep experience building and scaling innovative products and user experiences, most notably as the co-founder and CTO of Instagram."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "q": "Which AI Safety Level protections did Anthropic activate in conjunction with launching Claude Opus 4 in May 2025?",
+    "options": [
+      "ASL-2",
+      "ASL-3",
+      "ASL-4",
+      "ASL-5"
+    ],
+    "answer_index": 1,
+    "explain": "The post says Anthropic activated the ASL-3 Deployment and Security Standards in conjunction with launching Claude Opus 4. The 2023 Responsible Scaling Policy post said current LLMs appeared to be ASL-2.",
+    "cites": [
+      "activating-asl3-protections",
+      "anthropics-responsible-scaling-policy"
+    ],
+    "evidence": [
+      {
+        "id": "activating-asl3-protections",
+        "url": "https://www.anthropic.com/news/activating-asl3-protections",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "We have activated the AI Safety Level 3 (ASL-3) Deployment and Security Standards described in Anthropic’s Responsible Scaling Policy (RSP) in conjunction with launching Claude Opus 4."
+      },
+      {
+        "id": "anthropics-responsible-scaling-policy",
+        "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Our RSP defines a framework called AI Safety Levels (ASL) for addressing catastrophic risks, modeled loosely after the US government’s biosafety level (BSL) standards"
+      },
+      {
+        "id": "anthropics-responsible-scaling-policy",
+        "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Current LLMs, including Claude, appear to be ASL-2."
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "q": "In its February 2026 report on distillation, how many exchanges with Claude did the three named labs generate through about 24,000 fraudulent accounts?",
+    "options": [
+      "Over 160,000",
+      "Over 16 million",
+      "Over 1.6 million",
+      "Over 160 million"
+    ],
+    "answer_index": 1,
+    "explain": "The report says DeepSeek, Moonshot and MiniMax generated over 16 million exchanges with Claude through approximately 24,000 fraudulent accounts.",
+    "cites": [
+      "detecting-and-preventing-distillation-attacks"
+    ],
+    "evidence": [
+      {
+        "id": "detecting-and-preventing-distillation-attacks",
+        "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "We have identified industrial-scale campaigns by three AI laboratories—DeepSeek, Moonshot, and MiniMax—to illicitly extract Claude’s capabilities to improve their own models."
+      },
+      {
+        "id": "detecting-and-preventing-distillation-attacks",
+        "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "These labs generated over 16 million exchanges with Claude through approximately 24,000 fraudulent accounts, in violation of our terms of service and regional access restrictions."
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "q": "Which product did Anthropic introduce alongside Claude 3.7 Sonnet on 24 February 2025?",
+    "options": [
+      "Claude Cowork",
+      "Artifacts",
+      "Claude Code",
+      "Claude Instant"
+    ],
+    "answer_index": 2,
+    "explain": "The 3.7 Sonnet post says that, along with the model, Anthropic was introducing a command line tool for agentic coding, Claude Code, as a limited research preview. Claude Instant came with the original Claude in 2023.",
+    "cites": [
+      "claude-3-7-sonnet",
+      "introducing-claude"
+    ],
+    "evidence": [
+      {
+        "id": "claude-3-7-sonnet",
+        "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Along with the model, we’re also introducing a command line tool for agentic coding, Claude Code."
+      },
+      {
+        "id": "claude-3-7-sonnet",
+        "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Claude Code is available as a limited research preview"
+      },
+      {
+        "id": "introducing-claude",
+        "url": "https://www.anthropic.com/news/introducing-claude",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "We’re offering two versions of Claude today: Claude and Claude Instant."
+      },
+      {
+        "id": "introducing-claude",
+        "url": "https://www.anthropic.com/news/introducing-claude",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Accessible through chat interface and API in our developer console, Claude is capable of a wide variety of conversational and text processing tasks"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "q": "What price per million input and output tokens did Anthropic state for Claude Opus 4.5 in November 2025?",
+    "options": [
+      "$15 and $75",
+      "$3 and $15",
+      "$10 and $50",
+      "$5 and $25"
+    ],
+    "answer_index": 3,
+    "explain": "The Opus 4.5 post says pricing is now $5/$25 per million tokens. $15/$75 was Opus 4 pricing and $10/$50 is the Fable 5 and Mythos 5 pricing.",
+    "cites": [
+      "claude-opus-4-5",
+      "claude-4",
+      "claude-fable-5-mythos-5"
+    ],
+    "evidence": [
+      {
+        "id": "claude-opus-4-5",
+        "url": "https://www.anthropic.com/news/claude-opus-4-5",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Our newest model, Claude Opus 4.5, is available today."
+      },
+      {
+        "id": "claude-opus-4-5",
+        "url": "https://www.anthropic.com/news/claude-opus-4-5",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Pricing is now $5/$25 per million tokens—making Opus-level capabilities accessible to even more users, teams, and enterprises."
+      },
+      {
+        "id": "claude-4",
+        "url": "https://www.anthropic.com/news/claude-4",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Today, we’re introducing the next generation of Claude models: Claude Opus 4 and Claude Sonnet 4"
+      },
+      {
+        "id": "claude-4",
+        "url": "https://www.anthropic.com/news/claude-4",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Pricing remains consistent with previous Opus and Sonnet models: Opus 4 at $15/$75 per million tokens (input/output) and Sonnet 4 at $3/$15."
+      },
+      {
+        "id": "claude-fable-5-mythos-5",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "It’s the same underlying model as Fable 5, but with the safeguards lifted in some areas."
+      },
+      {
+        "id": "claude-fable-5-mythos-5",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "Fable 5 and Mythos 5 are being offered at $10 per million input tokens and $50 per million output tokens—less than half the price of Claude Mythos Preview."
+      },
+      {
+        "id": "claude-fable-5-mythos-5",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "Today’s joint launch is another step towards our goal of bringing advanced AI capabilities to as many users as possible"
+      }
+    ]
+  }
+]

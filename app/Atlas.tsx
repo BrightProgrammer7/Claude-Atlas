@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import {
   compareChronologically,
   LANE_IDS,
@@ -10,6 +10,7 @@ import {
   type AtlasNode,
   type AtlasPlace,
   type Belief,
+  type Era,
   type Lane,
   type Place,
   type Theme,
@@ -23,7 +24,10 @@ import { useTheme } from "@/lib/theme";
 import { interpretUtterance, type VoiceCommand } from "@/lib/voice-intent";
 import AskPanel from "./AskPanel";
 import type { CameraRequest, PlaceGroup } from "./AtlasMap";
+import EraTour from "./EraTour";
+import KpiReadout from "./KpiReadout";
 import MythPanel from "./MythPanel";
+import NodeEvidence from "./NodeEvidence";
 import NodePlayButton from "./NodePlayButton";
 import ThemeToggle from "./ThemeToggle";
 import VoiceToolbar from "./VoiceToolbar";
@@ -50,6 +54,7 @@ const LANE_COLORS: Record<Theme, Record<Lane, string>> = {
     research: "#e8e6dc",
     people: "#b0aea5",
     community: "#c28fb0",
+    critic: "#e0645c",
   },
   light: {
     capability: "#c4623f",
@@ -58,6 +63,7 @@ const LANE_COLORS: Record<Theme, Record<Lane, string>> = {
     research: "#8c8573",
     people: "#6b6a64",
     community: "#9b5f87",
+    critic: "#b23a32",
   },
 };
 
@@ -74,9 +80,16 @@ const failureNotices: Record<VoiceInputError["failure"], string> = {
 
 type SidebarTab = "timeline" | "myth";
 
-type AtlasProps = { nodes: AtlasNode[]; places: AtlasPlace[]; beliefs: Belief[] };
+type AtlasProps = {
+  nodes: AtlasNode[];
+  places: AtlasPlace[];
+  beliefs: Belief[];
+  eras: Era[];
+  // Rendered on the server (the QR code is an SVG built at build time) and slotted into the header.
+  quizLink: ReactNode;
+};
 
-export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
+export default function Atlas({ nodes, places, beliefs, eras, quizLink }: AtlasProps) {
   const [theme, toggleTheme] = useTheme();
   const laneColor = LANE_COLORS[theme];
 
@@ -107,6 +120,8 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
   const [cameraRequest, setCameraRequest] = useState<CameraRequest | null>(null);
   const [isListening, setIsListening] = useState(false);
   const [notice, setNotice] = useState("");
+  const [isEraPickerOpen, setIsEraPickerOpen] = useState(false);
+  const [activeEraId, setActiveEraId] = useState<string | null>(null);
 
   const cameraRequestCountRef = useRef(0);
   const listenSessionRef = useRef<ListenSession | null>(null);
@@ -117,6 +132,15 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
     () => new Map(nodes.map((node) => [node.id, node])),
     [nodes],
   );
+  // Critic nodes grouped by the event they target, oldest first so the debate reads as it unfolded.
+  const criticsByTargetId = useMemo(() => {
+    const grouped = new Map<string, AtlasNode[]>();
+    for (const node of [...nodes].sort(compareChronologically)) {
+      if (node.lane !== "critic" || !node.target_id) continue;
+      grouped.set(node.target_id, [...(grouped.get(node.target_id) ?? []), node]);
+    }
+    return grouped;
+  }, [nodes]);
   const beliefsById = useMemo(
     () => new Map(beliefs.map((belief) => [belief.id, belief])),
     [beliefs],
@@ -235,10 +259,51 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
       if (queue.length === 0) return;
       clearNotice();
       setSidebarTab("timeline");
+      setActiveEraId(null);
+      setIsEraPickerOpen(false);
       narration.startTour(queue);
     },
     [nodes, nodesById, activeLanes, clearNotice, narration],
   );
+
+  // An era tour is the same narrated walk as history mode, over the era's own stops: every
+  // stop moves the year cursor, camera and sidebar highlight through focusNode.
+  const startEraTour = useCallback(
+    (eraId: string) => {
+      const era = eras.find((candidate) => candidate.id === eraId);
+      if (!era) return;
+      const stopIds = era.stops.filter((id) => nodesById.has(id));
+      if (stopIds.length === 0) return;
+      clearNotice();
+      setSidebarTab("timeline");
+      setIsEraPickerOpen(false);
+      setActiveEraId(era.id);
+      narration.unlockAudioForLaterPlayback();
+      narration.startTour(stopIds);
+    },
+    [eras, nodesById, clearNotice, narration],
+  );
+
+  const stopEraTour = useCallback(() => {
+    narration.stop();
+  }, [narration]);
+
+  const toggleEraPicker = () => {
+    if (activeEraId !== null) {
+      // A finished era is still on screen; the Tour button then means "pick another".
+      narration.stop();
+      setActiveEraId(null);
+      setIsEraPickerOpen(true);
+      return;
+    }
+    setIsEraPickerOpen((open) => !open);
+  };
+
+  const closeEraTour = useCallback(() => {
+    narration.stop();
+    setActiveEraId(null);
+    setIsEraPickerOpen(false);
+  }, [narration]);
 
   const changeYear = useCallback(
     (year: number) => {
@@ -481,6 +546,7 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
             <span aria-hidden> · </span>
             showing <span className="text-ink">{visibleNodes.length}</span>
           </p>
+          {quizLink}
           <ThemeToggle theme={theme} onToggle={toggleTheme} />
         </div>
       </header>
@@ -558,10 +624,27 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
             isListening={isListening}
             statusMessage={statusMessage}
             onStartTour={() => startHistory()}
+            onOpenEraTour={toggleEraPicker}
+            isEraTourOpen={isEraPickerOpen || activeEraId !== null}
             onTogglePause={narration.togglePause}
             onSkip={narration.skipForward}
             onStopTour={narration.stop}
             onToggleListening={handleToggleListening}
+          />
+          <EraTour
+            eras={eras}
+            nodesById={nodesById}
+            isPickerOpen={isEraPickerOpen}
+            activeEraId={activeEraId}
+            isWalking={tour.isActive && activeEraId !== null}
+            stopPosition={tour.position}
+            stopTotal={tour.total}
+            onPickEra={startEraTour}
+            onPrevious={narration.skipBack}
+            onNext={narration.skipForward}
+            onStop={stopEraTour}
+            onClose={closeEraTour}
+            onChipClick={focusNode}
           />
           <AskPanel
             state={askAtlas.state}
@@ -660,7 +743,9 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
                       key={node.id}
                       data-node-id={node.id}
                       data-selected={isSelected || undefined}
-                      className="border-b border-hair last:border-b-0 data-[selected]:bg-ink/5 data-[selected]:shadow-[inset_2px_0_0_0_var(--accent)]"
+                      className={`border-b border-hair last:border-b-0 data-[selected]:bg-ink/5 data-[selected]:shadow-[inset_2px_0_0_0_var(--accent)] ${
+                        node.lane === "critic" ? "bg-[var(--critic)]/[0.06]" : ""
+                      }`}
                     >
                       <button
                         type="button"
@@ -693,6 +778,13 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
                           {node.title}
                         </span>
                       </button>
+                      <NodeEvidence
+                        node={node}
+                        isSelected={isSelected}
+                        targetNode={nodesById.get(node.target_id ?? node.responds_to ?? "")}
+                        criticsOfThisNode={criticsByTargetId.get(node.id) ?? []}
+                        onFocusNode={focusNode}
+                      />
                       <div className="flex flex-wrap items-center gap-x-3 gap-y-1 px-4 pb-3 pt-1.5 text-xs text-muted">
                         <NodePlayButton
                           nodeTitle={node.title}
@@ -705,8 +797,18 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
                           rel="noopener noreferrer"
                           className="text-accent underline-offset-2 hover:underline"
                         >
-                          source
+                          {node.lane === "critic" ? "critic source" : "source"}
                         </a>
+                        {node.anthropic_url && (
+                          <a
+                            href={node.anthropic_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-accent underline-offset-2 hover:underline"
+                          >
+                            Anthropic document
+                          </a>
+                        )}
                         <span>retrieved {node.retrieved_at.slice(0, 10)}</span>
                       </div>
                     </li>
@@ -722,6 +824,7 @@ export default function Atlas({ nodes, places, beliefs }: AtlasProps) {
         </section>
 
         <div className="order-3 border-t border-hair px-4 py-3 sm:px-6 lg:order-none lg:col-span-3 lg:col-start-1 lg:row-start-2">
+          <KpiReadout year={selectedYear} nodesUpToYear={nodesUpToYear} onFocusNode={focusNode} />
           <div className="mx-auto max-w-3xl">
             <label
               htmlFor="year-scrubber"

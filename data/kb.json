@@ -330,6 +330,195 @@
     "excerpt": "Today, we are expanding our Asia-Pacific operations by opening a new office in Singapore—our fifth in the region—and signing a Memorandum of Understanding (MOU) with the Singapore Ministry of Digital Development and Information. Singapore is one of our most active markets anywhere in the world, and Claude is already powering Singaporean business and government services used by millions of people every day, like GovTech Singapore, Grab, and DBS. Our growing local team will ensure these organizations and many more stay on the frontier with safe, capable AI. “We’re committed to Singapore for the long term,” said Dale Finlay, General Manager of ASEAN at Anthropic. “Our customers here hold AI to an extremely high standard, especially when it comes to reliability and security. Having a team on the ground means we can get even closer to the organizations putting Claude to work on their hardest problems.” Supporting responsible AI in Singapore Kai Fong Chng, Permanent Secretary of the Ministry of Digital Development and Information, and Anthropic co-founder Ben Mann signed the MOU on the sidelines of Singapore International Cyber Week. Minister for Digital Development and Information Josep"
   },
   {
+    "id": "rsp-v1-0",
+    "lane": "policy",
+    "title": "Anthropic's Responsible Scaling Policy Version 1.0",
+    "date": "2023-09-19",
+    "url": "https://www-cdn.anthropic.com/1adf000c8f675958c2ee23805d91aaade1cd4613/responsible-scaling-policy.pdf",
+    "place": null,
+    "excerpt": "Quote: \"With this document we are making a public commitment to a concrete framework for managing these risks—one that will evolve over time, but that seeks to establish clear expectations and accountability in its initial form.\""
+  },
+  {
+    "id": "rsp-v2-0",
+    "lane": "policy",
+    "title": "Responsible Scaling Policy",
+    "date": "2024-10-15",
+    "url": "https://www-cdn.anthropic.com/616dee633636e5bd309cb73aed8622e80fe47839.pdf",
+    "place": null,
+    "excerpt": "Quote: \"a public commitment not to train or deploy models capable of causing catastrophic harm unless we have implemented safety and security measures that will keep risks below acceptable levels\""
+  },
+  {
+    "id": "rsp-v2-1",
+    "lane": "policy",
+    "title": "Responsible Scaling Policy Version 2.1",
+    "date": "2025-03-31",
+    "url": "https://www-cdn.anthropic.com/17310f6d70ae5627f55313ed067afc1a762a4068.pdf",
+    "place": null,
+    "excerpt": "Quote: \"This update clarifies which Capability Thresholds would require enhanced safeguards beyond our current ASL-3 standards.\""
+  },
+  {
+    "id": "rsp-v2-2",
+    "lane": "policy",
+    "title": "Responsible Scaling Policy Version 2.2",
+    "date": "2025-05-14",
+    "url": "https://www-cdn.anthropic.com/872c653b2d0501d6ab44cf87f43e1dc4853e4d37.pdf",
+    "place": null,
+    "excerpt": "Quote: \"This update excludes both sophisticated insiders and state-compromised insiders from the ASL-3 Security Standard.\""
+  },
+  {
+    "id": "asl-3-activation",
+    "lane": "policy",
+    "title": "Activating AI Safety Level 3 protections",
+    "date": "2025-05-22",
+    "url": "https://www.anthropic.com/news/activating-asl3-protections",
+    "place": null,
+    "excerpt": "Quote: \"We are deploying Claude Opus 4 with our ASL-3 measures as a precautionary and provisional action.\""
+  },
+  {
+    "id": "rsp-v3-0",
+    "lane": "policy",
+    "title": "Responsible Scaling Policy Version 3.0",
+    "date": "2026-02-24",
+    "url": "https://www.anthropic.com/responsible-scaling-policy/rsp-v3-0",
+    "place": null,
+    "excerpt": "Quote: \"This update is a comprehensive rewrite of our RSP.\""
+  },
+  {
+    "id": "rsp-v3-1",
+    "lane": "policy",
+    "title": "Responsible Scaling Policy Version 3.1",
+    "date": "2026-04-02",
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/bf04581e4f329735fd90634f6a1962c13c0bd351.pdf",
+    "place": null,
+    "excerpt": "Quote: \"This revision addresses the following points: (1) how we operationalize the Automated R&D capability threshold; (2) how we use internal feedback on Risk Reports\""
+  },
+  {
+    "id": "anthropic-rsp-v3-1-reader-response",
+    "lane": "policy",
+    "title": "Anthropic’s Responsible Scaling Policy",
+    "date": "2026-04-02",
+    "url": "https://www.anthropic.com/rsp-updates",
+    "place": null,
+    "excerpt": "Replies to [rsp-v3-0] Responsible Scaling Policy Version 3.0. Quote: \"After we released the v3 update, readers noted two areas on which our language could be clarified.\""
+  },
+  {
+    "id": "rsp-v3-2",
+    "lane": "policy",
+    "title": "Responsible Scaling Policy Version 3.2",
+    "date": "2026-04-29",
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/28c6241900d90410628a8a2003a5572faae4365a.pdf",
+    "place": null,
+    "excerpt": "Quote: \"This update authorizes the LTBT to request external review of Risk Reports, gives the LTBT the power to approve our selection of external reviewers\""
+  },
+  {
+    "id": "rsp-v3-3",
+    "lane": "policy",
+    "title": "Responsible Scaling Policy Version 3.3",
+    "date": "2026-05-26",
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/c11e84981d0a7281a1b229f3fa6af0da66eaf43f.pdf",
+    "place": null,
+    "excerpt": "Quote: \"This update (1) revises our threshold for novel chemical/biological weapons production to better track the threat model of concern\""
+  },
+  {
+    "id": "rsp-v3-4",
+    "lane": "policy",
+    "title": "Responsible Scaling Policy Version 3.4",
+    "date": "2026-07-08",
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf",
+    "place": null,
+    "excerpt": "Quote: \"It now requires that fully unredacted Risk Reports be shared with at least 200 Anthropic employees, rather than with all regular-clearance Anthropic staff.\""
+  },
+  {
+    "id": "critic-stein-perlman-rsp-2024-rewrite",
+    "lane": "critic",
+    "title": "Zach Stein-Perlman argues Anthropic misdescribed an RSP ambiguity that was in fact a missed ASL-3 threshold",
+    "date": "2024-10-15",
+    "url": "https://www.lesswrong.com/posts/KrYNqLkaCnBdHpZAs/anthropic-rewrote-its-rsp",
+    "place": null,
+    "excerpt": "Said by Zach Stein-Perlman (LessWrong). Targets [announcing-our-updated-responsible-scaling-policy] Our updated Responsible Scaling Policy. Quote: \"far as I can tell, this description is wrong; it was not an ambiguity; the RSP set forth an ASL-3 threshold and the Claude 3 Opus evals report incorrectly asserted that that threshold was merely a yellow line.\" Anthropic document: https://www.anthropic.com/rsp-updates"
+  },
+  {
+    "id": "critic-saferai-rsp-2024-step-backwards",
+    "lane": "critic",
+    "title": "SaferAI argues the October 2024 RSP update is a step backwards",
+    "date": "2024-10-23",
+    "url": "https://www.safer-ai.org/anthropics-responsible-scaling-policy-update-makes-a-step-backwards",
+    "place": null,
+    "excerpt": "Said by SaferAI. Targets [announcing-our-updated-responsible-scaling-policy] Our updated Responsible Scaling Policy. Quote: \"However, this approach is susceptible to shifting goalposts as capabilities advance.\" Anthropic document: https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy"
+  },
+  {
+    "id": "critic-lovely-asl4-commitment-2025",
+    "lane": "critic",
+    "title": "Garrison Lovely argues Anthropic quietly dropped its commitment to define ASL-4 before releasing an ASL-3 model",
+    "date": "2025-05-23",
+    "url": "https://www.lesswrong.com/posts/HE2WXbftEebdBLR9u/anthropic-is-quietly-backpedalling-on-its-safety-commitments",
+    "place": null,
+    "excerpt": "Said by Garrison Lovely (Obsolete). Targets [activating-asl3-protections] Activating AI Safety Level 3 protections. Quote: \"Yet the company's latest RSP, updated May 14, doesn't publicly define ASL-4 — despite treating Claude 4 Opus as an ASL-3 model.\" Anthropic document: https://www.anthropic.com/news/activating-asl3-protections"
+  },
+  {
+    "id": "critic-time-perrigo-drops-pledge-2026",
+    "lane": "critic",
+    "title": "TIME reports Anthropic is dropping the central pledge of its Responsible Scaling Policy",
+    "date": "2026-02-24",
+    "url": "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
+    "place": null,
+    "excerpt": "Said by Billy Perrigo (TIME). Targets [responsible-scaling-policy-v3] Responsible Scaling Policy Version 3.0. Quote: \"the change to the RSP leaves Anthropic far less constrained by its own safety policies\" Anthropic document: https://www.anthropic.com/news/responsible-scaling-policy-v3"
+  },
+  {
+    "id": "critic-metr-painter-triage-mode-2026",
+    "lane": "critic",
+    "title": "METR policy director Chris Painter says RSP v3 signals Anthropic is shifting into triage mode",
+    "date": "2026-02-24",
+    "url": "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
+    "place": null,
+    "excerpt": "Said by Chris Painter (METR), quoted by TIME. Targets [responsible-scaling-policy-v3] Responsible Scaling Policy Version 3.0. Quote: \"believes it needs to shift into triage mode with its safety plans, because methods to assess and mitigate risk are not keeping up with the pace of capabilities\" Anthropic document: https://www.anthropic.com/news/responsible-scaling-policy-v3"
+  },
+  {
+    "id": "critic-midas-watchtower-revoked-core-2026",
+    "lane": "critic",
+    "title": "The Midas Project logs RSP v3 as a major, undisclosed revocation of a core RSP component",
+    "date": "2026-02-24",
+    "url": "https://www.themidasproject.com/watchtower",
+    "place": null,
+    "excerpt": "Said by The Midas Project (AI Policy Watchtower). Targets [rsp-v3-0] Responsible Scaling Policy Version 3.0. Quote: \"Anthropic Major Change Not disclosed No Feb 24, 2026 Revoked a core component of their Responsible Scaling Policy\" Anthropic document: https://www.anthropic.com/news/responsible-scaling-policy-v3"
+  },
+  {
+    "id": "critic-transparency-coalition-2026",
+    "lane": "critic",
+    "title": "Transparency Coalition argues Anthropic’s stated reason for dropping its core safety principle makes no sense",
+    "date": "2026-02-26",
+    "url": "https://www.transparencycoalition.ai/news/anthropic-abandons-safety-policy-this-is-why-we-work-to-make-ai-safeguards-the-law",
+    "place": null,
+    "excerpt": "Said by Transparency Coalition (Bruce Barcott). Targets [responsible-scaling-policy-v3] Responsible Scaling Policy Version 3.0. Quote: \"Anthropic says it is abandoning its core safety principle in order to make the world more safe.\" Anthropic document: https://www.anthropic.com/news/responsible-scaling-policy-v3"
+  },
+  {
+    "id": "critic-govai-v3-pause-2026",
+    "lane": "critic",
+    "title": "GovAI argues dropping the pause commitment makes unacceptable-risk deployments more likely",
+    "date": "2026-03-05",
+    "url": "https://www.governance.ai/analysis/anthropics-rsp-v3-0-how-it-works-whats-changed-and-some-reflections",
+    "place": null,
+    "excerpt": "Said by Sophie Williams and Jonas Freund (GovAI). Targets [rsp-v3-0] Responsible Scaling Policy Version 3.0. Quote: \"Dropping the pause commitment makes it more likely Anthropic will deploy models with unacceptable risks.\" Anthropic document: https://www.anthropic.com/news/responsible-scaling-policy-v3"
+  },
+  {
+    "id": "critic-zvi-matter-of-trust-2026",
+    "lane": "critic",
+    "title": "Zvi argues RSP v3 abandons many previous commitments, including not moving ahead when dangerous",
+    "date": "2026-04-01",
+    "url": "https://www.lesswrong.com/posts/AkzauoTt2Lwn2yAvj/anthropic-responsible-scaling-policy-v3-a-matter-of-trust",
+    "place": null,
+    "excerpt": "Said by Zvi (Don’t Worry About the Vase; LessWrong). Targets [rsp-v3-0] Responsible Scaling Policy Version 3.0. Quote: \"The changes involved include abandoning many previous commitments, including one not to move ahead if doing so would be dangerous\" Anthropic document: https://www.anthropic.com/news/responsible-scaling-policy-v3"
+  },
+  {
+    "id": "critic-arxiv-silent-revision-2026",
+    "lane": "critic",
+    "title": "Louis Yiven Zhu finds Anthropic’s largest RSP revision, 2.2 to 3.0, was not redlined and mostly silent on its material changes",
+    "date": "2026-09-08",
+    "url": "https://arxiv.org/html/2609.08789v1",
+    "place": null,
+    "excerpt": "Said by Louis Yiven Zhu (arXiv 2609.08789). Targets [rsp-v3-0] Responsible Scaling Policy Version 3.0. Quote: \"Anthropic alone publishes redlines, for five of its seven revisions, yet its largest revision, from version 2.2 to 3.0, is one it did not redline\" Anthropic document: https://www.anthropic.com/rsp-updates"
+  },
+  {
     "id": "belief-ipo",
     "lane": "myth-check",
     "title": "Anthropic recently IPO'd",

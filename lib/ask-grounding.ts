@@ -1,5 +1,5 @@
 import knowledgeBase from "@/data/kb.json";
-import nodes from "@/data/nodes.json";
+import { ATLAS_NODES as nodes } from "@/lib/atlas-data";
 import { LANE_IDS, type AtlasAction, type Lane } from "@/lib/atlas-types";
 
 type KnowledgeBaseEntry = {
@@ -44,7 +44,8 @@ Rules:
 - Reply in 1 to 4 short sentences suited to being spoken aloud. No lists, no markdown, no headings.
 - Cite every factual sentence with the id of the knowledge base item it comes from, in square brackets right before the sentence's final punctuation, for example: Claude 3 launched in March 2024 [claude-3-family]. Use only ids that appear in the knowledge base.
 - If the knowledge base does not cover the question, say that the atlas has no sourced item on that yet, and name the closest items with their ids.
-- If asked for a critic's view or criticism, use only items whose lane is critique. If there are none, say that no critic's view is sourced yet.
+- If asked what critics say or for criticism, use only items whose lane is critic. Name who said it (the attributed_to name at the start of the excerpt) and which event it targets. If there are none, say that no critic's view is sourced yet.
+- Items in the policy lane that name a Responsible Scaling Policy version hold that document's verbatim quote in the excerpt; use them for questions about RSP versions and ASL activations.
 - Items in the myth-check lane hold a belief, a verdict (False, Distorted or True) and a corrected statement. Use them for questions that test a belief, for example whether something happened, and state the verdict first.
 - Answer in the language of the question: English, French or Arabic. Keep ids and proper names unchanged. Translate the standard sentences above into that language.
 - You can drive the interface with tools. Give your spoken answer first, then call a tool only when the user asks to see, open, play, jump to, filter or be walked through something. Use only ids from the knowledge base that are not myth-check items.

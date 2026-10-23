@@ -11,6 +11,8 @@ type VoiceToolbarProps = {
   isListening: boolean;
   statusMessage: string;
   onStartTour: () => void;
+  onOpenEraTour: () => void;
+  isEraTourOpen: boolean;
   onTogglePause: () => void;
   onSkip: () => void;
   onStopTour: () => void;
@@ -89,6 +91,8 @@ export default function VoiceToolbar({
   isListening,
   statusMessage,
   onStartTour,
+  onOpenEraTour,
+  isEraTourOpen,
   onTogglePause,
   onSkip,
   onStopTour,
@@ -115,10 +119,16 @@ export default function VoiceToolbar({
           </span>
         </>
       ) : (
-        <ToolbarButton onClick={onStartTour} disabled={!canStartTour}>
-          <PlayIcon />
-          Voice history
-        </ToolbarButton>
+        <>
+          <ToolbarButton onClick={onStartTour} disabled={!canStartTour}>
+            <PlayIcon />
+            Voice history
+          </ToolbarButton>
+          <ToolbarButton onClick={onOpenEraTour} isHighlighted={isEraTourOpen} pressed={isEraTourOpen}>
+            <PlayIcon />
+            Tour
+          </ToolbarButton>
+        </>
       )}
 
       <ToolbarButton

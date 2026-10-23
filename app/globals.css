@@ -13,6 +13,7 @@
   --attribution-background: var(--attribution-background);
   --control-hover: rgb(250 249 245 / 0.08);
   --popup-shadow: rgb(0 0 0 / 0.45);
+  --critic: #e0645c;
   --verdict-false: #e0776b;
   --verdict-distorted: #e0b04f;
   --verdict-true: #8fa972;
@@ -34,6 +35,7 @@ html[data-theme="light"] {
   --popup-shadow: rgb(20 20 19 / 0.14);
   --sky: #3f739f;
   --moss: #5f7a42;
+  --critic: #b23a32;
   --verdict-false: #b3372b;
   --verdict-distorted: #8f6a0f;
   --verdict-true: #4f6b34;

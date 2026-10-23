@@ -1,0 +1,409 @@
+[
+  {
+    "id": "era-1",
+    "title": "2021 to 2023: Series A to the first Claude",
+    "start": "2021-05-28",
+    "end": "2023-03-14",
+    "big_idea": "Anthropic raised $124 million in 2021 and $580 million in 2022, published its core views on AI safety on 8 March 2023, and on 14 March 2023 offered Claude, an AI assistant, through a chat interface and API.",
+    "cites": [
+      "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+      "anthropic-raises-series-b-to-build-safe-reliable-ai",
+      "core-views-on-ai-safety",
+      "introducing-claude"
+    ],
+    "stops": [
+      "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+      "anthropic-raises-series-b-to-build-safe-reliable-ai",
+      "core-views-on-ai-safety",
+      "introducing-claude"
+    ],
+    "evidence": [
+      {
+        "id": "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+        "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Anthropic, an AI safety and research company, has raised $124 million in a Series A."
+      },
+      {
+        "id": "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+        "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "The Series A round was led by Jaan Tallinn, technology investor and co-founder of Skype."
+      },
+      {
+        "id": "anthropic-raises-series-b-to-build-safe-reliable-ai",
+        "url": "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Anthropic, an AI safety and research company, has raised $580 million in a Series B."
+      },
+      {
+        "id": "core-views-on-ai-safety",
+        "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "We founded Anthropic because we believe the impact of AI might be comparable to that of the industrial and scientific revolutions, but we aren’t confident it will go well."
+      },
+      {
+        "id": "introducing-claude",
+        "url": "https://www.anthropic.com/news/introducing-claude",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "We’re offering two versions of Claude today: Claude and Claude Instant."
+      },
+      {
+        "id": "introducing-claude",
+        "url": "https://www.anthropic.com/news/introducing-claude",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Accessible through chat interface and API in our developer console, Claude is capable of a wide variety of conversational and text processing tasks"
+      }
+    ]
+  },
+  {
+    "id": "era-2",
+    "title": "2023 to 2024: Series C to Claude 3.5 Sonnet",
+    "start": "2023-05-23",
+    "end": "2024-06-21",
+    "big_idea": "From May 2023 to June 2024 Anthropic raised $450 million in a Series C, published its Responsible Scaling Policy with AI Safety Levels, and released Claude 2, the Claude 3 family of Haiku, Sonnet and Opus, and Claude 3.5 Sonnet.",
+    "cites": [
+      "anthropic-series-c",
+      "claude-2",
+      "anthropics-responsible-scaling-policy",
+      "claude-3-family",
+      "claude-3-5-sonnet"
+    ],
+    "stops": [
+      "anthropic-series-c",
+      "claude-2",
+      "anthropics-responsible-scaling-policy",
+      "claude-3-family",
+      "mike-krieger-joins-anthropic",
+      "challenges-in-red-teaming-ai-systems",
+      "claude-3-5-sonnet"
+    ],
+    "evidence": [
+      {
+        "id": "anthropic-series-c",
+        "url": "https://www.anthropic.com/news/anthropic-series-c",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "we have raised $450 million in Series C funding led by Spark Capital with participation from Google, Salesforce Ventures, Sound Ventures, Zoom Ventures, and others"
+      },
+      {
+        "id": "claude-2",
+        "url": "https://www.anthropic.com/news/claude-2",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Claude 2 has improved performance, longer responses, and can be accessed via API as well as a new public-facing beta website"
+      },
+      {
+        "id": "claude-2",
+        "url": "https://www.anthropic.com/news/claude-2",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Users can input up to 100K tokens in each prompt, which means that Claude can work over hundreds of pages of technical documentation or even a book."
+      },
+      {
+        "id": "anthropics-responsible-scaling-policy",
+        "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Our RSP defines a framework called AI Safety Levels (ASL) for addressing catastrophic risks, modeled loosely after the US government’s biosafety level (BSL) standards"
+      },
+      {
+        "id": "anthropics-responsible-scaling-policy",
+        "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Current LLMs, including Claude, appear to be ASL-2."
+      },
+      {
+        "id": "claude-3-family",
+        "url": "https://www.anthropic.com/news/claude-3-family",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "The family includes three state-of-the-art models in ascending order of capability: Claude 3 Haiku, Claude 3 Sonnet, and Claude 3 Opus."
+      },
+      {
+        "id": "claude-3-5-sonnet",
+        "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Today, we’re launching Claude 3.5 Sonnet—our first release in the forthcoming Claude 3.5 model family."
+      }
+    ]
+  },
+  {
+    "id": "era-3",
+    "title": "2024 to 2025: Updated RSP to Claude 4",
+    "start": "2024-10-15",
+    "end": "2025-05-22",
+    "big_idea": "From October 2024 to May 2025 Anthropic published an updated Responsible Scaling Policy, released Claude 3.7 Sonnet together with Claude Code, raised $3.5 billion at a $61.5 billion post-money valuation, introduced Claude Opus 4 and Claude Sonnet 4, and activated AI Safety Level 3 protections in conjunction with launching Claude Opus 4.",
+    "cites": [
+      "announcing-our-updated-responsible-scaling-policy",
+      "claude-3-7-sonnet",
+      "anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+      "activating-asl3-protections",
+      "claude-4"
+    ],
+    "stops": [
+      "announcing-our-updated-responsible-scaling-policy",
+      "claude-3-7-sonnet",
+      "anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+      "activating-asl3-protections",
+      "claude-4"
+    ],
+    "evidence": [
+      {
+        "id": "announcing-our-updated-responsible-scaling-policy",
+        "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Today we are publishing a significant update to our Responsible Scaling Policy (RSP), the risk governance framework we use to mitigate potential catastrophic risks from frontier AI systems."
+      },
+      {
+        "id": "claude-3-7-sonnet",
+        "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Along with the model, we’re also introducing a command line tool for agentic coding, Claude Code."
+      },
+      {
+        "id": "claude-3-7-sonnet",
+        "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Claude Code is available as a limited research preview"
+      },
+      {
+        "id": "anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+        "url": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+        "retrieved_at": "2026-10-23T01:34:57Z",
+        "quote": "Anthropic has raised $3.5 billion at a $61.5 billion post-money valuation."
+      },
+      {
+        "id": "activating-asl3-protections",
+        "url": "https://www.anthropic.com/news/activating-asl3-protections",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "We have activated the AI Safety Level 3 (ASL-3) Deployment and Security Standards described in Anthropic’s Responsible Scaling Policy (RSP) in conjunction with launching Claude Opus 4."
+      },
+      {
+        "id": "claude-4",
+        "url": "https://www.anthropic.com/news/claude-4",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Today, we’re introducing the next generation of Claude models: Claude Opus 4 and Claude Sonnet 4"
+      },
+      {
+        "id": "claude-4",
+        "url": "https://www.anthropic.com/news/claude-4",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Pricing remains consistent with previous Opus and Sonnet models: Opus 4 at $15/$75 per million tokens (input/output) and Sonnet 4 at $3/$15."
+      }
+    ]
+  },
+  {
+    "id": "era-4",
+    "title": "2025: Series F to Claude Opus 4.5",
+    "start": "2025-09-02",
+    "end": "2025-11-24",
+    "big_idea": "From September to November 2025 Anthropic raised $13 billion at a $183 billion post-money valuation, announced offices in Bengaluru and Seoul and opened one in Tokyo, named Rahul Patil Chief Technology Officer, reported an AI-orchestrated cyber espionage campaign it detected in mid-September 2025, and released Claude Opus 4.5.",
+    "cites": [
+      "anthropic-raises-series-f-at-usd183b-post-money-valuation",
+      "expanding-global-operations-to-india",
+      "rahul-patil-joins-anthropic",
+      "seoul-becomes-third-anthropic-office-in-asia-pacific",
+      "opening-our-tokyo-office",
+      "disrupting-AI-espionage",
+      "claude-opus-4-5"
+    ],
+    "stops": [
+      "anthropic-raises-series-f-at-usd183b-post-money-valuation",
+      "expanding-global-operations-to-india",
+      "rahul-patil-joins-anthropic",
+      "seoul-becomes-third-anthropic-office-in-asia-pacific",
+      "opening-our-tokyo-office",
+      "disrupting-AI-espionage",
+      "claude-opus-4-5"
+    ],
+    "evidence": [
+      {
+        "id": "anthropic-raises-series-f-at-usd183b-post-money-valuation",
+        "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Anthropic has completed a Series F fundraising of $13 billion led by ICONIQ. This financing values Anthropic at $183 billion post-money."
+      },
+      {
+        "id": "expanding-global-operations-to-india",
+        "url": "https://www.anthropic.com/news/expanding-global-operations-to-india",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "we’re expanding our global operations to India, with plans to open an office in Bengaluru in early 2026."
+      },
+      {
+        "id": "rahul-patil-joins-anthropic",
+        "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "We're excited to announce that Rahul Patil has joined Anthropic as our Chief Technology Officer."
+      },
+      {
+        "id": "rahul-patil-joins-anthropic",
+        "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Most recently, he served as CTO of Stripe, where he guided the technical organization supporting millions of businesses"
+      },
+      {
+        "id": "seoul-becomes-third-anthropic-office-in-asia-pacific",
+        "url": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Today we're announcing plans to open an office in Seoul in early 2026 as our global operations expand into Korea."
+      },
+      {
+        "id": "opening-our-tokyo-office",
+        "url": "https://www.anthropic.com/news/opening-our-tokyo-office",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "This week, we opened our first Asia-Pacific office in Tokyo, a milestone in Anthropic's international expansion."
+      },
+      {
+        "id": "disrupting-AI-espionage",
+        "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "In mid-September 2025, we detected suspicious activity that later investigation determined to be a highly sophisticated espionage campaign."
+      },
+      {
+        "id": "claude-opus-4-5",
+        "url": "https://www.anthropic.com/news/claude-opus-4-5",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Our newest model, Claude Opus 4.5, is available today."
+      },
+      {
+        "id": "claude-opus-4-5",
+        "url": "https://www.anthropic.com/news/claude-opus-4-5",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "Pricing is now $5/$25 per million tokens—making Opus-level capabilities accessible to even more users, teams, and enterprises."
+      }
+    ]
+  },
+  {
+    "id": "era-5",
+    "title": "2026: Series G to the third RSP",
+    "start": "2026-02-12",
+    "end": "2026-03-10",
+    "big_idea": "In February and March 2026 Anthropic raised $30 billion at a $380 billion post-money valuation, identified distillation campaigns by DeepSeek, Moonshot and MiniMax, released the third version of its Responsible Scaling Policy, and announced a Sydney office as its fourth in Asia-Pacific.",
+    "cites": [
+      "anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "detecting-and-preventing-distillation-attacks",
+      "responsible-scaling-policy-v3",
+      "sydney-fourth-office-asia-pacific"
+    ],
+    "stops": [
+      "anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "detecting-and-preventing-distillation-attacks",
+      "responsible-scaling-policy-v3",
+      "sydney-fourth-office-asia-pacific"
+    ],
+    "evidence": [
+      {
+        "id": "anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+        "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "We have raised $30 billion in Series G funding led by GIC and Coatue, valuing Anthropic at $380 billion post-money."
+      },
+      {
+        "id": "detecting-and-preventing-distillation-attacks",
+        "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "We have identified industrial-scale campaigns by three AI laboratories—DeepSeek, Moonshot, and MiniMax—to illicitly extract Claude’s capabilities to improve their own models."
+      },
+      {
+        "id": "detecting-and-preventing-distillation-attacks",
+        "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "These labs generated over 16 million exchanges with Claude through approximately 24,000 fraudulent accounts, in violation of our terms of service and regional access restrictions."
+      },
+      {
+        "id": "responsible-scaling-policy-v3",
+        "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "We’re releasing the third version of our Responsible Scaling Policy (RSP), the voluntary framework we use to mitigate catastrophic risks from AI systems."
+      },
+      {
+        "id": "sydney-fourth-office-asia-pacific",
+        "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "In the coming weeks, we will open an office in Sydney—our fourth office in Asia-Pacific, alongside Tokyo, Bengaluru, and Seoul."
+      }
+    ]
+  },
+  {
+    "id": "era-6",
+    "title": "2026: Project Glasswing to Claude Opus 5",
+    "start": "2026-05-22",
+    "end": "2026-10-14",
+    "big_idea": "From May to October 2026 Anthropic reported that approximately 50 partners had used Claude Mythos Preview to find more than ten thousand high- or critical-severity vulnerabilities, extended Project Glasswing to approximately 150 new organizations, raised $65 billion at a $965 billion post-money valuation, launched Claude Fable 5 and Claude Mythos 5, made Claude Opus 5 available, and announced a Singapore office and a government MOU.",
+    "cites": [
+      "glasswing-initial-update",
+      "expanding-project-glasswing",
+      "series-h",
+      "claude-fable-5-mythos-5",
+      "claude-opus-5",
+      "singapore-office-opening"
+    ],
+    "stops": [
+      "glasswing-initial-update",
+      "milan-office-opening",
+      "series-h",
+      "expanding-project-glasswing",
+      "claude-fable-5-mythos-5",
+      "claude-opus-5",
+      "singapore-office-opening"
+    ],
+    "evidence": [
+      {
+        "id": "glasswing-initial-update",
+        "url": "https://www.anthropic.com/news/glasswing-initial-update",
+        "retrieved_at": "2026-10-23T01:34:58Z",
+        "quote": "approximately 50 partners have used Claude Mythos Preview to find more than ten thousand high- or critical-severity vulnerabilities across the most systemically important software in the world"
+      },
+      {
+        "id": "expanding-project-glasswing",
+        "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "we announced that roughly 50 initial partners had access to Claude Mythos Preview"
+      },
+      {
+        "id": "expanding-project-glasswing",
+        "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "Project Glasswing is our collaborative effort to secure the world’s most important software."
+      },
+      {
+        "id": "expanding-project-glasswing",
+        "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "we’re extending the partnership to approximately 150 new organizations. Each one will need to meet our security requirements before they gain access."
+      },
+      {
+        "id": "series-h",
+        "url": "https://www.anthropic.com/news/series-h",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, valuing the company at $965 billion post-money."
+      },
+      {
+        "id": "claude-fable-5-mythos-5",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "It’s the same underlying model as Fable 5, but with the safeguards lifted in some areas."
+      },
+      {
+        "id": "claude-fable-5-mythos-5",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "Fable 5 and Mythos 5 are being offered at $10 per million input tokens and $50 per million output tokens—less than half the price of Claude Mythos Preview."
+      },
+      {
+        "id": "claude-fable-5-mythos-5",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "Today’s joint launch is another step towards our goal of bringing advanced AI capabilities to as many users as possible"
+      },
+      {
+        "id": "claude-opus-5",
+        "url": "https://www.anthropic.com/news/claude-opus-5",
+        "retrieved_at": "2026-10-23T01:34:59Z",
+        "quote": "Claude Opus 5 is available today on all platforms, priced at $5 per million input tokens and $25 per million output tokens"
+      },
+      {
+        "id": "singapore-office-opening",
+        "url": "https://www.anthropic.com/news/singapore-office-opening",
+        "retrieved_at": "2026-10-23T01:35:00Z",
+        "quote": "we are expanding our Asia-Pacific operations by opening a new office in Singapore—our fifth in the region—and signing a Memorandum of Understanding (MOU) with the Singapore Ministry of Digital Development and Information."
+      }
+    ]
+  }
+]

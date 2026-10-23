@@ -1,6 +1,14 @@
-export type Lane = "capability" | "funding" | "policy" | "research" | "people" | "community";
+export type Lane = "capability" | "funding" | "policy" | "research" | "people" | "community" | "critic";
 
-export const LANE_IDS: Lane[] = ["capability", "funding", "policy", "research", "people", "community"];
+export const LANE_IDS: Lane[] = [
+  "capability",
+  "funding",
+  "policy",
+  "research",
+  "people",
+  "community",
+  "critic",
+];
 
 export type Place = { name: string; lat: number; lon: number };
 
@@ -12,6 +20,35 @@ export type AtlasNode = {
   url: string;
   retrieved_at: string;
   place?: Place;
+  // Only on nodes from data/critic.json. A policy node carries `quote` (and, for Anthropic's
+  // reader response, `responds_to`); a critic node also carries who said it, the Anthropic
+  // document it answers and the event it targets. `url` is always the source of that node itself.
+  kind?: string;
+  quote?: string;
+  responds_to?: string;
+  attributed_to?: string;
+  target_id?: string;
+  anthropic_url?: string;
+};
+
+// One era of data/eras.json: a guided-tour chapter with its verbatim-sourced stops.
+export type Era = {
+  id: string;
+  title: string;
+  start: string;
+  end: string;
+  big_idea: string;
+  cites: string[];
+  stops: string[];
+};
+
+export type QuizQuestion = {
+  id: string;
+  q: string;
+  options: string[];
+  answer_index: number;
+  explain: string;
+  evidence: { id: string; url: string; quote: string }[];
 };
 
 // An office or community location from data/places.json, drawn as its own map layer.

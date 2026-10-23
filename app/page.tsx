@@ -1,15 +1,18 @@
 import Atlas from "./Atlas";
-import rawNodes from "@/data/nodes.json";
+import QuizLink from "./QuizLink";
 import rawPlaces from "@/data/places.json";
 import rawBeliefs from "@/data/beliefs.json";
-import type { AtlasNode, AtlasPlace, Belief } from "@/lib/atlas-types";
+import { ATLAS_ERAS, ATLAS_NODES } from "@/lib/atlas-data";
+import type { AtlasPlace, Belief } from "@/lib/atlas-types";
 
 export default function Home() {
   return (
     <Atlas
-      nodes={rawNodes as AtlasNode[]}
+      nodes={ATLAS_NODES}
       places={rawPlaces as AtlasPlace[]}
       beliefs={rawBeliefs as Belief[]}
+      eras={ATLAS_ERAS}
+      quizLink={<QuizLink />}
     />
   );
 }

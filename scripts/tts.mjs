@@ -1,4 +1,4 @@
-// Generates one narration MP3 per node: public/audio/<safe-id>.mp3.
+// Generates one narration MP3 per node (data/nodes.json and data/critic.json): public/audio/<safe-id>.mp3.
 //
 // Run locally with `npm run tts`. The MP3s ship as static files, so no TTS key is
 // ever deployed. Provider: ElevenLabs if an ElevenLabs key is set in the local
@@ -13,6 +13,7 @@ import { safeAudioId } from "../lib/node-audio.mjs";
 
 const projectRoot = fileURLToPath(new URL("..", import.meta.url));
 const nodesPath = `${projectRoot}data/nodes.json`;
+const criticPath = `${projectRoot}data/critic.json`;
 const audioDirectory = `${projectRoot}public/audio`;
 
 const ELEVENLABS_KEY_NAMES = [
@@ -174,7 +175,11 @@ async function fileExistsNonEmpty(path) {
 }
 
 async function main() {
-  const nodes = JSON.parse(await readFile(nodesPath, "utf8"));
+  // Policy and critic nodes (data/critic.json) are timeline nodes too, so they get narration.
+  const nodes = [
+    ...JSON.parse(await readFile(nodesPath, "utf8")),
+    ...JSON.parse(await readFile(criticPath, "utf8")),
+  ];
 
   const nodeIdBySafeId = new Map();
   for (const node of nodes) {
