@@ -1,0 +1,81 @@
+[
+  {
+    "id": "belief-ipo",
+    "belief": "Anthropic recently IPO'd",
+    "verdict": "False",
+    "corrected_statement": "As of 2026-10-22 Anthropic has not IPO'd: on 2026-06-01 it announced (Rule 135 notice on anthropic.com) that it had confidentially submitted a draft S-1 to the SEC for a \"proposed\" IPO, and EDGAR showed no public S-1, prospectus or exchange listing for it as of 2026-10-22 18:18 UTC. Yahoo Finance reported on 2026-10-21 that the public S-1 could be filed as soon as Friday 2026-10-23, with a November listing as the reported target.",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+        "quote": "Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. This gives us the option to go public after the SEC completes its review.",
+        "tier": "T1"
+      },
+      {
+        "url": "https://www.anthropic.com/news/series-h",
+        "quote": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, valuing the company at $965 billion post-money.",
+        "tier": "T1"
+      },
+      {
+        "url": "https://www.anthropic.com/news",
+        "quote": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+        "tier": "T1"
+      }
+    ]
+  },
+  {
+    "id": "belief-model-line",
+    "belief": "the model line goes Haiku, Sonnet, Opus, Fable",
+    "verdict": "Distorted",
+    "corrected_statement": "As of 22 October 2026 the belief is right about the four generally available Claude tiers but wrong as a description of the whole line and of its history. Anthropic's docs list four current models, Fable 5.1 (1 September 2026 per the docs release notes; $10/$50 per million input/output tokens), Opus 5.5 (22 September; $4/$20), Sonnet 5.5 (28 September; $2/$10) and Haiku 5.5 (7 October; from $0.10/$0.50), and Anthropic Academy calls them four tiers: Fable, Opus, Sonnet and Haiku. The line does not end at Fable. Fable is a Mythos-class model, and Claude Mythos 5.1 is the same model at the same price with fewer cyber and biology safeguards, open only to organizations verified through Anthropic's programs; the Models API names five model lines (haiku, sonnet, opus, fable, mythos) and claude.com labels the top family 'Mythos (including Fable)'. Mythos came first: its name leaked on 26 March 2026 (Fortune), Anthropic announced Mythos Preview on 7 April 2026, and Fable 5 launched on 9 June 2026. Anthropic's launch post said Mythos-class models sit above its Opus class, but its 22 September Opus 5.5 post says Opus 5.5 performs at Fable 5.1's level on most work and shows it ahead on all nine benchmarks in its table, while the docs still say to start with Opus 5.5 and move to Fable 5.1 when Opus evals fall short. The names are concurrent tiers, not a release sequence: Haiku, Sonnet and Opus were announced together on 4 March 2024 (Haiku shipped 13 March), Fable 5 launched before Sonnet 5 (30 June) and Opus 5 (24 July), and Fable 5 and Mythos 5 were disabled for all customers from 12 June until access was restored on 1 July 2026 (Mythos 5 only for approved US organizations) under a US export-control directive.",
+    "sources": [
+      {
+        "url": "https://claude.com/",
+        "quote": "Claude for Microsoft 365 Models Mythos (including Fable) Opus Sonnet Haiku Import to Claude",
+        "tier": "T1"
+      },
+      {
+        "url": "https://claude.com/pricing",
+        "quote": "Models and usage Features Free Pro Max 5x Max 20x Fable More information No Usage credits 50% of weekly limits* 50% of weekly limits* Opus No Yes Yes Yes Sonnet Yes Yes Yes Yes Haiku Yes Yes Yes Yes",
+        "tier": "T1"
+      },
+      {
+        "url": "https://www.anthropic.com/claude-opus-5-5",
+        "quote": "Opus 5.5 Fable 5.1 Opus 5 GPT-6 Astra GPT-5.6 Sol Agentic coding Terminal-Bench 4.0¹ Agentic coding Terminal-Bench 4.0¹ 66.4% 55.8% 52.3% 57.9% 37.3%",
+        "tier": "T1"
+      },
+      {
+        "url": "https://www.anthropic.com/news/cyber-verification-program",
+        "quote": "Each tier includes access to our most capable models, including Claude Opus 5.5, Claude Sonnet 5.5, Claude Mythos 5.1, and new models moving forward.",
+        "tier": "T1"
+      }
+    ]
+  },
+  {
+    "id": "belief-glasswing",
+    "belief": "Glasswing gave big tech early access to a defense model",
+    "verdict": "Distorted",
+    "corrected_statement": "On 7 April 2026 Anthropic announced Project Glasswing, which gave gated access to Claude Mythos Preview, a general-purpose frontier model it decided not to release generally, to 11 named partners (Amazon Web Services, Apple, Google, Microsoft and NVIDIA, plus Broadcom, Cisco, CrowdStrike, JPMorganChase, the Linux Foundation and Palo Alto Networks) and over 40 other critical-software organisations, so they could find and fix software vulnerabilities, which is what \"defense\" means here (cyber defense, not a purpose-built military model). Glasswing was expanded by about 150 organisations on 2 June 2026, its successors Mythos 5 and 5.1 were still limited to vetted organisations when checked on 22 October 2026, and on 6 October 2026 Glasswing was folded into Anthropic's expanded Cyber Verification Program.",
+    "sources": [
+      {
+        "url": "https://www.anthropic.com/glasswing",
+        "quote": "April 7, 2026 - Today we’re announcing Project Glasswing",
+        "tier": "T1"
+      },
+      {
+        "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "quote": "The group covers several industries that weren’t well represented in our initial cohort, such as power, water, healthcare, communications, and hardware.",
+        "tier": "T1"
+      },
+      {
+        "url": "https://www.anthropic.com/project/glasswing",
+        "quote": "An initiative to secure the world’s most critical software with early access to frontier AI",
+        "tier": "T1"
+      },
+      {
+        "url": "https://www.anthropic.com/transparency",
+        "quote": "without making the model generally commercially available, and it represents a larger jump in capabilities than our most recent previous model releases.",
+        "tier": "T1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,359 @@
+[
+  {
+    "id": "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+    "lane": "funding",
+    "title": "Anthropic raises $124 million Series A",
+    "date": "2021-05-28",
+    "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+    "place": null,
+    "excerpt": "Anthropic, an AI safety and research company, has raised $124 million in a Series A. The financing round will support Anthropic in executing against its research roadmap and building prototypes of reliable and steerable AI systems. The company is led by siblings Dario Amodei (CEO) and Daniela Amodei (President). The Anthropic team has previously conducted research into GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI & Compute, Concrete Problems in AI Safety, and Learning from Human Preferences. Anthropic will use the funding for computationally-intensive research to develop large-scale AI systems that are steerable, interpretable, and robust. “Anthropic’s goal is to make the fundamental research advances that will let us build more capable, general, and reliable AI systems, then deploy these systems in a way that benefits people. We’re thrilled to be working with investors that support us in this mission and expect to concentrate on research in the immediate term,” said Anthropic CEO Dario Amodei. Anthropic will focus on research into increasing the safety of AI systems; specifically, the company is focusing on increasing the reliability of large-scale A"
+  },
+  {
+    "id": "anthropic-raises-series-b-to-build-safe-reliable-ai",
+    "lane": "funding",
+    "title": "Anthropic raises Series B to build robust AI",
+    "date": "2022-04-29",
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai",
+    "place": null,
+    "excerpt": "Anthropic, an AI safety and research company, has raised $580 million in a Series B. The financing will help Anthropic build large-scale experimental infrastructure to explore and improve the safety properties of computationally intensive AI models. Since its founding at the beginning of 2021, Anthropic has conducted research into making systems that are more steerable, robust, and interpretable. On interpretability, it has made progress in mathematically reverse engineering the behavior of small language models and begun to understand the source of pattern-matching behavior in large language models. On steerability and robustness, it has developed baseline techniques to make large language models more “helpful and harmless”, and followed this up with reinforcement learning to further improve these properties, as well as releasing a dataset to help other research labs train models that are more aligned with human preferences. It has also released an analysis of sudden changes in performance in large language models and the societal impacts of this phenomenon, which demonstrates the need for studying safety issues at scale. The purpose of this research is to develop the technical co"
+  },
+  {
+    "id": "core-views-on-ai-safety",
+    "lane": "research",
+    "title": "Anthropic's core views on AI safety",
+    "date": "2023-03-08",
+    "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+    "place": null,
+    "excerpt": "We founded Anthropic because we believe the impact of AI might be comparable to that of the industrial and scientific revolutions, but we aren’t confident it will go well. And we also believe this level of impact could start to arrive soon – perhaps in the coming decade. This view may sound implausible or grandiose, and there are good reasons to be skeptical of it. For one thing, almost everyone who has said “the thing we’re working on might be one of the biggest developments in history” has been wrong, often laughably so. Nevertheless, we believe there is enough evidence to seriously prepare for a world where rapid AI progress leads to transformative AI systems. At Anthropic our motto has been “show, don’t tell”, and we’ve focused on releasing a steady stream of safety-oriented research that we believe has broad value for the AI community. We’re writing this now because as more people have become aware of AI progress, it feels timely to express our own views on this topic and to explain our strategy and goals. In short, we believe that AI safety research is urgently important and should be supported by a wide range of public and private actors. So in this post we will summarize wh"
+  },
+  {
+    "id": "introducing-claude",
+    "lane": "capability",
+    "title": "Introducing Claude",
+    "date": "2023-03-14",
+    "url": "https://www.anthropic.com/news/introducing-claude",
+    "place": null,
+    "excerpt": "After working for the past few months with key partners like Notion, Quora, and DuckDuckGo in a closed alpha, we’ve been able to carefully test out our systems in the wild, and are ready to offer Claude more broadly so it can power crucial, cutting-edge use cases at scale. Claude is a next-generation AI assistant based on Anthropic’s research into training helpful, honest, and harmless AI systems. Accessible through chat interface and API in our developer console, Claude is capable of a wide variety of conversational and text processing tasks while maintaining a high degree of reliability and predictability. Claude can help with use cases including summarization, search, creative and collaborative writing, Q&A, coding, and more. Early customers report that Claude is much less likely to produce harmful outputs, easier to converse with, and more steerable - so you can get your desired output with less effort. Claude can also take direction on personality, tone, and behavior. We’re offering two versions of Claude today: Claude and Claude Instant. Claude is a state-of-the-art high-performance model, while Claude Instant is a lighter, less expensive, and much faster option. We plan to i"
+  },
+  {
+    "id": "anthropic-series-c",
+    "lane": "funding",
+    "title": "Anthropic raises $450 million in Series C",
+    "date": "2023-05-23",
+    "url": "https://www.anthropic.com/news/anthropic-series-c",
+    "place": null,
+    "excerpt": "We are pleased to announce that we have raised $450 million in Series C funding led by Spark Capital with participation from Google, Salesforce Ventures, Sound Ventures, Zoom Ventures, and others. The funding will support our continued work developing helpful, harmless, and honest AI systems—including Claude, an AI assistant that can perform a wide variety of conversational and text processing tasks. Anthropic was founded to build AI products that people can rely on and generate research about the opportunities and risks of AI. Our CEO, Dario Amodei, says, “We are thrilled that these leading investors and technology companies are supporting Anthropic’s mission: AI research and products that put safety at the frontier. The systems we are building are being designed to provide reliable AI services that can positively impact businesses and consumers now and in the future.” With our Series C funding, we hope to grow our product offerings, support businesses that will responsibly deploy Claude in the market, and further AI safety research. Our team is focused on AI alignment techniques that allow AI systems to better handle adversarial conversations, follow precise instructions, and gen"
+  },
+  {
+    "id": "claude-2",
+    "lane": "capability",
+    "title": "Claude 2",
+    "date": "2023-07-11",
+    "url": "https://www.anthropic.com/news/claude-2",
+    "place": null,
+    "excerpt": "We are pleased to announce Claude 2, our new model. Claude 2 has improved performance, longer responses, and can be accessed via API as well as a new public-facing beta website, claude.ai. We have heard from our users that Claude is easy to converse with, clearly explains its thinking, is less likely to produce harmful outputs, and has a longer memory. We have made improvements from our previous models on coding, math, and reasoning. For example, our latest model scored 76.5% on the multiple choice section of the Bar exam, up from 73.0% with Claude 1.3. When compared to college students applying to graduate school, Claude 2 scores above the 90th percentile on the GRE reading and writing exams, and similarly to the median applicant on quantitative reasoning. Think of Claude as a friendly, enthusiastic colleague or personal assistant who can be instructed in natural language to help you with many tasks. The Claude 2 API for businesses is being offered for the same price as Claude 1.3. Additionally, anyone in the US and UK can start using our beta chat experience today. As we work to improve both the performance and safety of our models, we have increased the length of Claude’s input"
+  },
+  {
+    "id": "anthropics-responsible-scaling-policy",
+    "lane": "policy",
+    "title": "Introducing Anthropic's Responsible Scaling Policy",
+    "date": "2023-09-19",
+    "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
+    "place": null,
+    "excerpt": "Today, we’re publishing our Responsible Scaling Policy (RSP) – a series of technical and organizational protocols that we’re adopting to help us manage the risks of developing increasingly capable AI systems. As AI models become more capable, we believe that they will create major economic and social value, but will also present increasingly severe risks. Our RSP focuses on catastrophic risks – those where an AI model directly causes large scale devastation. Such risks can come from deliberate misuse of models (for example use by terrorists or state actors to create bioweapons) or from models that cause destruction by acting autonomously in ways contrary to the intent of their designers. Our RSP defines a framework called AI Safety Levels (ASL) for addressing catastrophic risks, modeled loosely after the US government’s biosafety level (BSL) standards for handling of dangerous biological materials. The basic idea is to require safety, security, and operational standards appropriate to a model’s potential for catastrophic risk, with higher ASL levels requiring increasingly strict demonstrations of safety. A very abbreviated summary of the ASL system is as follows: ASL-1 refers to sy"
+  },
+  {
+    "id": "claude-3-family",
+    "lane": "capability",
+    "title": "Introducing the next generation of Claude",
+    "date": "2024-03-04",
+    "url": "https://www.anthropic.com/news/claude-3-family",
+    "place": null,
+    "excerpt": "Today, we're announcing the Claude 3 model family, which sets new industry benchmarks across a wide range of cognitive tasks. The family includes three state-of-the-art models in ascending order of capability: Claude 3 Haiku, Claude 3 Sonnet, and Claude 3 Opus. Each successive model offers increasingly powerful performance, allowing users to select the optimal balance of intelligence, speed, and cost for their specific application. Opus and Sonnet are now available to use in claude.ai and the Claude API which is now generally available in 159 countries. Haiku will be available soon. Claude 3 model family A new standard for intelligence Opus, our most intelligent model, outperforms its peers on most of the common evaluation benchmarks for AI systems, including undergraduate level expert knowledge (MMLU), graduate level expert reasoning (GPQA), basic mathematics (GSM8K), and more. It exhibits near-human levels of comprehension and fluency on complex tasks, leading the frontier of general intelligence. All Claude 3 models show increased capabilities in analysis and forecasting, nuanced content creation, code generation, and conversing in non-English languages like Spanish, Japanese, a"
+  },
+  {
+    "id": "mike-krieger-joins-anthropic",
+    "lane": "people",
+    "title": "Mike Krieger joins as Chief Product Officer",
+    "date": "2024-05-15",
+    "url": "https://www.anthropic.com/news/mike-krieger-joins-anthropic",
+    "place": null,
+    "excerpt": "We're excited to announce that Mike Krieger has joined Anthropic as our Chief Product Officer. Mike will oversee Anthropic's product engineering, product management, and product design efforts as we work to expand our suite of enterprise applications and bring Claude to a wider audience. Mike brings deep experience building and scaling innovative products and user experiences, most notably as the co-founder and CTO of Instagram. During his tenure, he grew the engineering team to over 450 people and helped scale the platform to more than a billion users. More recently, Mike spent the past three years building Artifact, a personalized news app, prior to its acquisition by Yahoo. With deep expertise across the product development lifecycle, from hands-on coding to product vision and leadership, Mike is uniquely suited to take Anthropic's product efforts to the next level as the company continues its rapid growth. \"I've long admired Anthropic's relentless focus on building capable and trustworthy AI systems that empower humans and expand what's possible with technology,\" said Mike. \"I'm thrilled to join the exceptional team at Anthropic and partner with them to design and scale transfo"
+  },
+  {
+    "id": "challenges-in-red-teaming-ai-systems",
+    "lane": "research",
+    "title": "Challenges in red teaming AI systems",
+    "date": "2024-06-12",
+    "url": "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems",
+    "place": null,
+    "excerpt": "In this post we detail insights from a sample of red teaming approaches that we’ve used to test our AI systems. Through this practice, we’ve begun to gather empirical data about the appropriate tool to reach for in a given situation, and the associated benefits and challenges with each approach. We hope this post is helpful for other companies trying to red team their AI systems, policymakers curious about how red teaming works in practice, and organizations that want to red team AI technology. What is red teaming? Red teaming is a critical tool for improving the safety and security of AI systems. It involves adversarially testing a technological system to identify potential vulnerabilities. Today, researchers and AI developers employ a wide range of red teaming techniques to test their AI systems, each with its own advantages and disadvantages. The lack of standardized practices for AI red teaming further complicates the situation. Developers might use different techniques to assess the same type of threat model, and even when they use the same technique, the way they go about red teaming might look quite different in practice. This inconsistency makes it challenging to objectivel"
+  },
+  {
+    "id": "claude-3-5-sonnet",
+    "lane": "capability",
+    "title": "Introducing Claude 3.5 Sonnet",
+    "date": "2024-06-21",
+    "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+    "place": null,
+    "excerpt": "UpdateAug 28, 2025 Consumer Terms and Privacy Policy Today, we’re launching Claude 3.5 Sonnet—our first release in the forthcoming Claude 3.5 model family. Claude 3.5 Sonnet raises the industry bar for intelligence, outperforming competitor models and Claude 3 Opus on a wide range of evaluations, with the speed and cost of our mid-tier model, Claude 3 Sonnet. Claude 3.5 Sonnet is now available for free on Claude.ai and the Claude iOS app, while Claude Pro and Team plan subscribers can access it with significantly higher rate limits. It is also available via the Anthropic API, Amazon Bedrock, and Google Cloud’s Vertex AI. The model costs $3 per million input tokens and $15 per million output tokens, with a 200K token context window. Frontier intelligence at 2x the speed Claude 3.5 Sonnet sets new industry benchmarks for graduate-level reasoning (GPQA), undergraduate-level knowledge (MMLU), and coding proficiency (HumanEval). It shows marked improvement in grasping nuance, humor, and complex instructions, and is exceptional at writing high-quality content with a natural, relatable tone. Claude 3.5 Sonnet operates at twice the speed of Claude 3 Opus. This performance boost, combined w"
+  },
+  {
+    "id": "announcing-our-updated-responsible-scaling-policy",
+    "lane": "policy",
+    "title": "Our updated Responsible Scaling Policy",
+    "date": "2024-10-15",
+    "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+    "place": null,
+    "excerpt": "Today we are publishing a significant update to our Responsible Scaling Policy (RSP), the risk governance framework we use to mitigate potential catastrophic risks from frontier AI systems. This update introduces a more flexible and nuanced approach to assessing and managing AI risks while maintaining our commitment not to train or deploy models unless we have implemented adequate safeguards. Key improvements include new capability thresholds to indicate when we will upgrade our safeguards, refined processes for evaluating model capabilities and the adequacy of our safeguards (inspired by safety case methodologies), and new measures for internal governance and external input. By learning from our implementation experiences and drawing on risk management practices used in other high-consequence industries, we aim to better prepare for the rapid pace of AI advancement. The promise and challenge of advanced AI As frontier AI models advance, they have the potential to bring about transformative benefits for our society and economy. AI could accelerate scientific discoveries, revolutionize healthcare, enhance our education system, and create entirely new domains for human creativity and"
+  },
+  {
+    "id": "claude-3-7-sonnet",
+    "lane": "capability",
+    "title": "Claude 3.7 Sonnet and Claude Code",
+    "date": "2025-02-24",
+    "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+    "place": null,
+    "excerpt": "Today, we’re announcing Claude 3.7 Sonnet1, our most intelligent model to date and the first hybrid reasoning model on the market. Claude 3.7 Sonnet can produce near-instant responses or extended, step-by-step thinking that is made visible to the user. API users also have fine-grained control over how long the model can think for. Claude 3.7 Sonnet shows particularly strong improvements in coding and front-end web development. Along with the model, we’re also introducing a command line tool for agentic coding, Claude Code. Claude Code is available as a limited research preview, and enables developers to delegate substantial engineering tasks to Claude directly from their terminal. Claude 3.7 Sonnet is now available on all Claude plans—including Free, Pro, Team, and Enterprise—as well as the Claude Developer Platform, Amazon Bedrock, and Google Cloud’s Vertex AI. Extended thinking mode is available on all surfaces except the free Claude tier. In both standard and extended thinking modes, Claude 3.7 Sonnet has the same price as its predecessors: $3 per million input tokens and $15 per million output tokens—which includes thinking tokens. Claude 3.7 Sonnet: Frontier reasoning made pra"
+  },
+  {
+    "id": "anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+    "lane": "funding",
+    "title": "Anthropic raises Series E at $61.5B valuation",
+    "date": "2025-03-03",
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+    "place": null,
+    "excerpt": "Anthropic has raised $3.5 billion at a $61.5 billion post-money valuation. The round was led by Lightspeed Venture Partners, with participation from Bessemer Venture Partners, Cisco Investments, D1 Capital Partners, Fidelity Management & Research Company, General Catalyst, Jane Street, Menlo Ventures and Salesforce Ventures, among other new and existing investors. With this investment, Anthropic will advance its development of next-generation AI systems, expand its compute capacity, deepen its research in mechanistic interpretability and alignment, and accelerate its international expansion. Today's announcement follows the launch of Claude 3.7 Sonnet and Claude Code, building on Anthropic's continued product and commercial momentum. Claude 3.7 Sonnet has set a new high-water mark in coding abilities—an area where Anthropic plans to make further progress in the coming months. With this foundation, Anthropic is focused on developing AI systems that can serve as true collaborators, working alongside teams to tackle complex projects, synthesize information across fields, and help organizations achieve outsized impact. Businesses across industries—from fast-growing startups like Cursor"
+  },
+  {
+    "id": "activating-asl3-protections",
+    "lane": "policy",
+    "title": "Activating AI Safety Level 3 protections",
+    "date": "2025-05-22",
+    "url": "https://www.anthropic.com/news/activating-asl3-protections",
+    "place": null,
+    "excerpt": "We have activated the AI Safety Level 3 (ASL-3) Deployment and Security Standards described in Anthropic’s Responsible Scaling Policy (RSP) in conjunction with launching Claude Opus 4. The ASL-3 Security Standard involves increased internal security measures that make it harder to steal model weights, while the corresponding Deployment Standard covers a narrowly targeted set of deployment measures designed to limit the risk of Claude being misused specifically for the development or acquisition of chemical, biological, radiological, and nuclear (CBRN) weapons. These measures should not lead Claude to refuse queries except on a very narrow set of topics. We are deploying Claude Opus 4 with our ASL-3 measures as a precautionary and provisional action. To be clear, we have not yet determined whether Claude Opus 4 has definitively passed the Capabilities Threshold that requires ASL-3 protections. Rather, due to continued improvements in CBRN-related knowledge and capabilities, we have determined that clearly ruling out ASL-3 risks is not possible for Claude Opus 4 in the way it was for every previous model, and more detailed study is required to conclusively assess the model’s level of"
+  },
+  {
+    "id": "claude-4",
+    "lane": "capability",
+    "title": "Introducing Claude 4",
+    "date": "2025-05-22",
+    "url": "https://www.anthropic.com/news/claude-4",
+    "place": null,
+    "excerpt": "Today, we’re introducing the next generation of Claude models: Claude Opus 4 and Claude Sonnet 4, setting new standards for coding, advanced reasoning, and AI agents. Claude Opus 4 is the world’s best coding model, with sustained performance on complex, long-running tasks and agent workflows. Claude Sonnet 4 is a significant upgrade to Claude Sonnet 3.7, delivering superior coding and reasoning while responding more precisely to your instructions. Alongside the models, we're also announcing: Extended thinking with tool use (beta): Both models can use tools—like web search—during extended thinking, allowing Claude to alternate between reasoning and tool use to improve responses. New model capabilities: Both models can use tools in parallel, follow instructions more precisely, and—when given access to local files by developers—demonstrate significantly improved memory capabilities, extracting and saving key facts to maintain continuity and build tacit knowledge over time. Claude Code is now generally available: After receiving extensive positive feedback during our research preview, we’re expanding how developers can collaborate with Claude. Claude Code now supports background tasks"
+  },
+  {
+    "id": "anthropic-raises-series-f-at-usd183b-post-money-valuation",
+    "lane": "funding",
+    "title": "Anthropic raises $13B Series F at $183B valuation",
+    "date": "2025-09-02",
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
+    "place": null,
+    "excerpt": "Anthropic has completed a Series F fundraising of $13 billion led by ICONIQ. This financing values Anthropic at $183 billion post-money. Along with ICONIQ, the round was co-led by Fidelity Management & Research Company and Lightspeed Venture Partners. The investment reflects Anthropic’s continued momentum and reinforces our position as the leading intelligence platform for enterprises, developers, and power users. Significant investors in this round include Altimeter, Baillie Gifford, affiliated funds of BlackRock, Blackstone, Coatue, D1 Capital Partners, General Atlantic, General Catalyst, GIC, Growth Equity at Goldman Sachs Alternatives, Insight Partners, Jane Street, Ontario Teachers' Pension Plan, Qatar Investment Authority, TPG, T. Rowe Price Associates, Inc., T. Rowe Price Investment Management, Inc., WCM Investment Management, and XN. “From Fortune 500 companies to AI-native startups, our customers rely on Anthropic’s frontier models and platform products for their most important, mission-critical work,” said Krishna Rao, Chief Financial Officer of Anthropic. “We are seeing exponential growth in demand across our entire customer base. This financing demonstrates investors’ e"
+  },
+  {
+    "id": "expanding-global-operations-to-india",
+    "lane": "people",
+    "title": "Anthropic expands to India with Bengaluru office",
+    "date": "2025-10-07",
+    "url": "https://www.anthropic.com/news/expanding-global-operations-to-india",
+    "place": {
+      "name": "Bengaluru",
+      "lat": 12.9716,
+      "lon": 77.5946
+    },
+    "excerpt": "Today we’re announcing that we’re expanding our global operations to India, with plans to open an office in Bengaluru in early 2026. Bengaluru will serve as our second office in Asia Pacific after Tokyo, which will open in the coming months. This expansion will help us serve India’s rapidly growing AI ecosystem and reflects the increasing international demand we’re seeing for Claude. Our CEO and co-founder Dario Amodei is visiting India this week to meet with public officials and enterprise partners as we deepen our commitment to the region. “India is compelling because of the scale of its technical talent and the commitment from the Indian government to ensure the benefits of artificial intelligence reach all areas of society, not just concentrated pockets,” said Dario. “There is deep alignment between the challenges India is tackling and our mission as a company, from deploying AI across diverse languages and contexts, to building frameworks for responsible governance. India's AI ecosystem will play a central role in how AI develops globally and democratically, and we’re looking forward to working with organizations in India to pave a path for how beneficial AI can be scaled in a"
+  },
+  {
+    "id": "rahul-patil-joins-anthropic",
+    "lane": "people",
+    "title": "Rahul Patil joins as Chief Technology Officer",
+    "date": "2025-10-07",
+    "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+    "place": null,
+    "excerpt": "We're excited to announce that Rahul Patil has joined Anthropic as our Chief Technology Officer. Rahul will oversee our engineering organization across product, compute, infrastructure, inference, data science, and security as we scale Claude to meet growing enterprise demand worldwide. Rahul brings over 20 years of experience building and maintaining industry-leading infrastructure for businesses. Most recently, he served as CTO of Stripe, where he guided the technical organization supporting millions of businesses processing more than trillion dollars annually. Prior to Stripe, Rahul held senior engineering leadership roles at AWS, Microsoft, and Oracle Cloud Infrastructure, developing deep expertise in building reliable, scalable mission-critical systems that businesses depend on. “I'm thrilled to join Anthropic at this pivotal moment in AI development,” said Rahul. “Anthropic’s brilliance in both research and products, and their conscientious approach to pushing the boundaries of what's possible feels like the most important work I could be doing right now—I personally can't think of a greater calling and responsibility.” “Building AI systems that people can trust has been cent"
+  },
+  {
+    "id": "seoul-becomes-third-anthropic-office-in-asia-pacific",
+    "lane": "people",
+    "title": "Seoul becomes Anthropic's third APAC office",
+    "date": "2025-10-23",
+    "url": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific",
+    "place": {
+      "name": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978
+    },
+    "excerpt": "Today we're announcing plans to open an office in Seoul in early 2026 as our global operations expand into Korea. Seoul comes on the heels of new offices in Tokyo and Bengaluru, and together this expansion reflects the extraordinary momentum we're seeing across Asia-Pacific—our run rate revenue in the region has grown over 10x in the past year. The Korean government recently announced plans to become one of the world’s top three hubs of AI development. Anthropic leaders will visit Seoul next week to meet with customers and partners and signal our commitment to helping Korea meet their ambitious AI goals. Korean users are among Claude's most active globally, ranking in the top five both in total usage and per capita usage according to our Economic Index. More than a quarter of our Claude Code user base now comes from countries in Asia-Pacific, with Korea showing particularly strong growth—the number of active weekly Claude Code users in Korea has grown 6x in the past four months. The developer community in Korea is one of our strongest worldwide, and a Korean software engineer currently ranks as the world's top Claude Code user, exemplifying the depth of technical talent and adoptio"
+  },
+  {
+    "id": "opening-our-tokyo-office",
+    "lane": "people",
+    "title": "Anthropic opens Tokyo office",
+    "date": "2025-10-29",
+    "url": "https://www.anthropic.com/news/opening-our-tokyo-office",
+    "place": {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503
+    },
+    "excerpt": "This week, we opened our first Asia-Pacific office in Tokyo, a milestone in Anthropic's international expansion. Our CEO and co-founder Dario Amodei traveled to Tokyo to meet with Prime Minister Takaichi, address members of the LDP Digitization Headquarters Committee, meet customers and sign a Memorandum of Cooperation with the Japan AI Safety Institute. These actions deepen our partnership with Japanese government, enterprises, and cultural institutions. “Technology and human progress are not in tension, but advance together,” said Dario Amodei. “This principle, this Japanese notion of the purpose of technology, is at the heart of Anthropic. It’s how we view the world, and it’s the reason we see Japan as a vital hub for growing our business.” Building shared standards for AI evaluation AI development transcends national borders. As these systems become more powerful, we need international cooperation on evaluation standards—shared ways to assess capabilities, test systems, and understand risks. This week, Anthropic signed a Memorandum of Cooperation with the Japan AI Safety Institute to collaborate on AI evaluation methodologies and to monitor emerging trends in the field. This pa"
+  },
+  {
+    "id": "disrupting-AI-espionage",
+    "lane": "research",
+    "title": "Disrupting an AI-orchestrated cyber espionage campaign",
+    "date": "2025-11-13",
+    "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+    "place": null,
+    "excerpt": "We recently argued that an inflection point had been reached in cybersecurity: a point at which AI models had become genuinely useful for cybersecurity operations, both for good and for ill. This was based on systematic evaluations showing cyber capabilities doubling in six months; we’d also been tracking real-world cyberattacks, observing how malicious actors were using AI capabilities. While we predicted these capabilities would continue to evolve, what has stood out to us is how quickly they have done so at scale. In mid-September 2025, we detected suspicious activity that later investigation determined to be a highly sophisticated espionage campaign. The attackers used AI’s “agentic” capabilities to an unprecedented degree—using AI not just as an advisor, but to execute the cyberattacks themselves. The threat actor—whom we assess with high confidence was a Chinese state-sponsored group—manipulated our Claude Code tool into attempting infiltration into roughly thirty global targets and succeeded in a small number of cases. The operation targeted large tech companies, financial institutions, chemical manufacturing companies, and government agencies. We believe this is the first d"
+  },
+  {
+    "id": "claude-opus-4-5",
+    "lane": "capability",
+    "title": "Introducing Claude Opus 4.5",
+    "date": "2025-11-24",
+    "url": "https://www.anthropic.com/news/claude-opus-4-5",
+    "place": null,
+    "excerpt": "Our newest model, Claude Opus 4.5, is available today. It’s intelligent, efficient, and the best model in the world for coding, agents, and computer use. It’s also meaningfully better at everyday tasks like deep research and working with slides and spreadsheets. Opus 4.5 is a step forward in what AI systems can do, and a preview of larger changes to how work gets done. Claude Opus 4.5 is state-of-the-art on tests of real-world software engineering: Opus 4.5 is available today on our apps, our API, and on all three major cloud platforms. If you’re a developer, simply use claude-opus-4-5-20251101 via the Claude API. Pricing is now $5/$25 per million tokens—making Opus-level capabilities accessible to even more users, teams, and enterprises. Alongside Opus, we’re releasing updates to the Claude Developer Platform, Claude Code, and our consumer apps. There are new tools for longer-running agents and new ways to use Claude in Excel, Chrome, and on desktop. In the Claude apps, lengthy conversations no longer hit a wall. See our product-focused section below for details. First impressions As our Anthropic colleagues tested the model before release, we heard remarkably consistent feedback."
+  },
+  {
+    "id": "anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+    "lane": "funding",
+    "title": "Anthropic raises $30B Series G at $380B valuation",
+    "date": "2026-02-12",
+    "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+    "place": null,
+    "excerpt": "We have raised $30 billion in Series G funding led by GIC and Coatue, valuing Anthropic at $380 billion post-money. The round was co-led by D. E. Shaw Ventures, Dragoneer, Founders Fund, ICONIQ, and MGX. The investment will fuel the frontier research, product development, and infrastructure expansions that have made Anthropic the market leader in enterprise AI and coding. Significant investors in this round include: Accel, Addition, Alpha Wave Global, Altimeter, AMP PBC, Appaloosa LP, Baillie Gifford, Bessemer Venture Partners, affiliated funds of BlackRock, Blackstone, D1 Capital Partners, Fidelity Management & Research Company, General Catalyst, Greenoaks, Growth Equity at Goldman Sachs Alternatives, Insight Partners, Jane Street, JPMorganChase through its Security and Resiliency Initiative and Growth Equity Partners, Lightspeed Venture Partners, Menlo Ventures, Morgan Stanley Investment Management, NX1 Capital, Qatar Investment Authority (QIA), Sands Capital, Sequoia Capital, Temasek, TowerBrook, TPG, Whale Rock Capital, and XN. This round also includes a portion of the previously announced investments from Microsoft and NVIDIA. “Whether it is entrepreneurs, startups, or the wor"
+  },
+  {
+    "id": "detecting-and-preventing-distillation-attacks",
+    "lane": "research",
+    "title": "Detecting and preventing distillation attacks",
+    "date": "2026-02-23",
+    "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+    "place": null,
+    "excerpt": "We have identified industrial-scale campaigns by three AI laboratories—DeepSeek, Moonshot, and MiniMax—to illicitly extract Claude’s capabilities to improve their own models. These labs generated over 16 million exchanges with Claude through approximately 24,000 fraudulent accounts, in violation of our terms of service and regional access restrictions. These labs used a technique called “distillation,” which involves training a less capable model on the outputs of a stronger one. Distillation is a widely used and legitimate training method. For example, frontier AI labs routinely distill their own models to create smaller, cheaper versions for their customers. But distillation can also be used for illicit purposes: competitors can use it to acquire powerful capabilities from other labs in a fraction of the time, and at a fraction of the cost, that it would take to develop them independently. These campaigns are growing in intensity and sophistication. The window to act is narrow, and the threat extends beyond any single company or region. Addressing it will require rapid, coordinated action among industry players, policymakers, and the global AI community. Why distillation matters"
+  },
+  {
+    "id": "responsible-scaling-policy-v3",
+    "lane": "policy",
+    "title": "Responsible Scaling Policy Version 3.0",
+    "date": "2026-02-24",
+    "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+    "place": null,
+    "excerpt": "We’re releasing the third version of our Responsible Scaling Policy (RSP), the voluntary framework we use to mitigate catastrophic risks from AI systems. Anthropic has now had an RSP for more than two years, and we’ve learned a great deal about its benefits and its shortcomings. We’re therefore updating the policy to reinforce what has worked well to date, improve the policy where necessary, and implement new measures to increase the transparency and accountability of our decision-making. You can read the new RSP in full here. In this post, we’ll discuss some of the thinking behind the changes. The original RSP and our theory of change The RSP is our attempt to solve the problem of how to address AI risks that are not present at the time the policy is written, but which could emerge rapidly as a result of an exponentially advancing technology. When we wrote the original RSP in September 2023, large language models were essentially chat interfaces. Today they can browse the web, write and run code, use computers, and take autonomous, multi-step actions. As each of these new capabilities have emerged, so have new risks. We expect this pattern to continue. We focused the RSP on the pr"
+  },
+  {
+    "id": "sydney-fourth-office-asia-pacific",
+    "lane": "people",
+    "title": "Sydney becomes Anthropic's fourth APAC office",
+    "date": "2026-03-10",
+    "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+    "place": {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093
+    },
+    "excerpt": "Anthropic is expanding to Australia and New Zealand. In the coming weeks, we will open an office in Sydney—our fourth office in Asia-Pacific, alongside Tokyo, Bengaluru, and Seoul. The expansion reflects strong demand from businesses in Australia and New Zealand and will help us better serve the countries’ unique AI ecosystems. In addition to hiring a team in Sydney, we plan to deepen our engagement with Australian institutions, as well as collaborate on projects that advance Australia’s national interests and priority sectors. Our executive team will visit Australia at the end of March to formalize some of these partnerships and meet with customers and policymakers. “We’re excited by the ways organizations in Australia and New Zealand are applying AI to areas of national importance—financial services, agricultural technology, clean energy innovation, healthcare delivery, cutting-edge deep tech and scientific research, along with AI transformation in the enterprise,” said Chris Ciauri, Managing Director of International, Anthropic. “Establishing a local presence will help us to develop strong partnerships in ANZ and ensure Claude is built with respect for the unique goals, opportun"
+  },
+  {
+    "id": "glasswing-initial-update",
+    "lane": "research",
+    "title": "Project Glasswing: An initial update",
+    "date": "2026-05-22",
+    "url": "https://www.anthropic.com/news/glasswing-initial-update",
+    "place": null,
+    "excerpt": "Last month, we launched Project Glasswing, our collaborative effort to secure the world’s most critical software before increasingly capable AI models can be turned against it. Since then, we and our approximately 50 partners have used Claude Mythos Preview to find more than ten thousand high- or critical-severity vulnerabilities across the most systemically important software in the world. Progress on software security used to be limited by how quickly we could find new vulnerabilities. Now it’s limited by how quickly we can verify, disclose, and patch the large numbers of vulnerabilities found by AI. In this post, we discuss what we’ve learned about this critical challenge for cybersecurity in the first weeks of Project Glasswing. We focus on the early public evidence of Mythos Preview’s performance, on the initial results of our effort to scan thousands of open-source software projects, and on what this progress means for cyberdefenders today. We also cover what to expect next from Project Glasswing, and how we’re thinking about releasing Mythos-class models in the future. Our early results Our approach to discussing Mythos Preview’s findings The software industry’s longstanding"
+  },
+  {
+    "id": "milan-office-opening",
+    "lane": "people",
+    "title": "Anthropic opens Milan office",
+    "date": "2026-05-27",
+    "url": "https://www.anthropic.com/news/milan-office-opening",
+    "place": {
+      "name": "Milan",
+      "lat": 45.4642,
+      "lon": 9.19
+    },
+    "excerpt": "Anthropic will open a new office in Milan, our sixth in Europe alongside London, Dublin, Paris, Zurich, and Munich. The Milan team will work with Italian companies and the country's developer community on building and scaling with Claude responsibly, and contribute to a conversation about AI that is already underway across Italian industry and public life. This office opening closely follows the release of Magnifica Humanitas, Pope Leo XIV's first encyclical and the first papal teaching dedicated to artificial intelligence. Anthropic co-founder Chris Olah was invited to speak at its presentation, where he addressed the ethical questions AI raises and called on more of the world—religious traditions, civil society, academia, and governments—to shape a positive outcome for humanity. Anthropic’s frontier AI capabilities and an abiding commitment to safety have already earned the trust of Italian enterprise. Led by Thomas Remy, Anthropic’s Head of Southern Europe, our local team is already working with a wide range of Italian companies, including Generali Group and Unipol Group in finance, Angelini Pharma and Bracco Group in life sciences, Enel Group in energy, and Pirelli in automotiv"
+  },
+  {
+    "id": "series-h",
+    "lane": "funding",
+    "title": "Anthropic raises $65B Series H at $965B valuation",
+    "date": "2026-05-28",
+    "url": "https://www.anthropic.com/news/series-h",
+    "place": null,
+    "excerpt": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, valuing the company at $965 billion post-money. Global enterprises across industries are deploying Claude in their core operations, and a growing number of people around the world use it for their everyday work. Since our Series G in February, adoption has continued to grow across global enterprise customers, and our run-rate revenue crossed $47 billion earlier this month. This latest funding is expected to advance our safety and interpretability research, expand compute to meet growing demand for Claude, and scale the products and partnerships our customers rely on. “Claude is increasingly indispensable to our growing global community of customers, and we work tirelessly to make tools like Claude Code and Cowork more helpful, more powerful, and more adaptable to their needs,” said Krishna Rao, Chief Financial Officer of Anthropic. “This funding will help us serve the historic demand we are experiencing, stay at the research frontier, and bring Claude to more of the places where work happens.” The round was co-led by Capital Group, Coatue, D1 Capital Partners, G"
+  },
+  {
+    "id": "expanding-project-glasswing",
+    "lane": "research",
+    "title": "Expanding Project Glasswing",
+    "date": "2026-06-02",
+    "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+    "place": null,
+    "excerpt": "Project Glasswing is our collaborative effort to secure the world’s most important software. In early April, we announced that roughly 50 initial partners had access to Claude Mythos Preview, and since then, they’ve been deploying the model to scan their codebases for vulnerabilities. We recently described how these partners have so far found more than 10,000 high- or critical-severity security flaws. We’re now expanding Project Glasswing. Following several weeks of close collaboration with our Project Glasswing partners, the security industry, open-source software maintainers, and the US government, we’re extending the partnership to approximately 150 new organizations. Each one will need to meet our security requirements before they gain access. The organizations in this new group are based in more than 15 countries, and most provide critical infrastructure to many more. (In the future, we intend to expand our geographical reach much further.) The group covers several industries that weren’t well represented in our initial cohort, such as power, water, healthcare, communications, and hardware. And many of the new partners are vendors—companies or nonprofits that maintain codebase"
+  },
+  {
+    "id": "claude-fable-5-mythos-5",
+    "lane": "capability",
+    "title": "Claude Fable 5 and Claude Mythos 5",
+    "date": "2026-06-09",
+    "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "place": null,
+    "excerpt": "UpdateJul 1, 2026 Claude Mythos 5 and Fable 5 redeployed Claude Fable 5 and Mythos 5 are now available. View more Jun 12, 2026 Claude Mythos 5 and Fable 5 access unavailable We are suspending access to Claude Fable 5 and Claude Mythos 5. We apologize for this disruption to our customers and are working to restore access as soon as possible. View more Today we’re launching Claude Fable 5: a Mythos-class1 model that we’ve made safe for general use. Fable 5’s capabilities exceed those of any model we’ve ever made generally available. It is state-of-the-art on nearly all tested benchmarks of AI capability, showing exceptional performance in software engineering, knowledge work, vision, scientific research, and many other areas. The longer and more complex the task, the larger Fable 5’s lead over our other models. Releasing a model this capable comes with risks. Without safeguards, Fable 5’s capabilities in areas like cybersecurity could be misused to cause serious damage. We’ve therefore launched the model with safeguards that mean queries on some topics will instead receive a response from our next-most-capable model, Claude Opus 4.8. To release the model both safely and quickly, we’v"
+  },
+  {
+    "id": "claude-opus-5",
+    "lane": "capability",
+    "title": "Introducing Claude Opus 5",
+    "date": "2026-07-24",
+    "url": "https://www.anthropic.com/news/claude-opus-5",
+    "place": null,
+    "excerpt": "Claude Opus 5 is available today. It’s a thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price. On coding and knowledge work evaluations like Frontier-Bench and GDPval-AA, Opus 5 is the new state-of-the-art, though it remains behind Mythos 5 on cybersecurity tasks. Opus 5 is designed to be used every day: it works more efficiently than other models. It’s the new default model on Claude Max, and the strongest model on Claude Pro. Performance and cost-effectiveness Claude Opus 5 provides greatly improved performance for the same cost as its predecessor, Opus 4.8. The charts in this section show how performance changes according to the model’s effort setting, which customers can use to optimize for intelligence or conserve tokens for faster and cheaper results. Opus 5 excels on valuable software engineering tasks. For example, on Frontier-Bench v0.1, Opus 5 surpasses all other models, and more than doubles Opus 4.8’s performance at a lower cost per task. On CursorBench 3.2, at max effort, the model performs within 0.5% of Fable 5’s peak score, but at half the cost per task; it also achieves greater performance at a given cost"
+  },
+  {
+    "id": "singapore-office-opening",
+    "lane": "people",
+    "title": "Singapore office and government MOU | Anthropic",
+    "date": "2026-10-14",
+    "url": "https://www.anthropic.com/news/singapore-office-opening",
+    "place": {
+      "name": "Singapore",
+      "lat": 1.3521,
+      "lon": 103.8198
+    },
+    "excerpt": "Today, we are expanding our Asia-Pacific operations by opening a new office in Singapore—our fifth in the region—and signing a Memorandum of Understanding (MOU) with the Singapore Ministry of Digital Development and Information. Singapore is one of our most active markets anywhere in the world, and Claude is already powering Singaporean business and government services used by millions of people every day, like GovTech Singapore, Grab, and DBS. Our growing local team will ensure these organizations and many more stay on the frontier with safe, capable AI. “We’re committed to Singapore for the long term,” said Dale Finlay, General Manager of ASEAN at Anthropic. “Our customers here hold AI to an extremely high standard, especially when it comes to reliability and security. Having a team on the ground means we can get even closer to the organizations putting Claude to work on their hardest problems.” Supporting responsible AI in Singapore Kai Fong Chng, Permanent Secretary of the Ministry of Digital Development and Information, and Anthropic co-founder Ben Mann signed the MOU on the sidelines of Singapore International Cyber Week. Minister for Digital Development and Information Josep"
+  },
+  {
+    "id": "belief-ipo",
+    "lane": "myth-check",
+    "title": "Anthropic recently IPO'd",
+    "date": null,
+    "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+    "place": null,
+    "excerpt": "Verdict: False. As of 2026-10-22 Anthropic has not IPO'd: on 2026-06-01 it announced (Rule 135 notice on anthropic.com) that it had confidentially submitted a draft S-1 to the SEC for a \"proposed\" IPO, and EDGAR showed no public S-1, prospectus or exchange listing for it as of 2026-10-22 18:18 UTC. Yahoo Finance reported on 2026-10-21 that the public S-1 could be filed as soon as Friday 2026-10-23, with a November listing as the reported target."
+  },
+  {
+    "id": "belief-model-line",
+    "lane": "myth-check",
+    "title": "the model line goes Haiku, Sonnet, Opus, Fable",
+    "date": null,
+    "url": "https://claude.com/",
+    "place": null,
+    "excerpt": "Verdict: Distorted. As of 22 October 2026 the belief is right about the four generally available Claude tiers but wrong as a description of the whole line and of its history. Anthropic's docs list four current models, Fable 5.1 (1 September 2026 per the docs release notes; $10/$50 per million input/output tokens), Opus 5.5 (22 September; $4/$20), Sonnet 5.5 (28 September; $2/$10) and Haiku 5.5 (7 October; from $0.10/$0.50), and Anthropic Academy calls them four tiers: Fable, Opus, Sonnet and Haiku. The line does not end at Fable. Fable is a Mythos-class model, and Claude Mythos 5.1 is the same model at the same price with fewer cyber and biology safeguards, open only to organizations verified through Anthropic's programs; the Models API names five model lines (haiku, sonnet, opus, fable, mythos) and claude.com labels the top family 'Mythos (including Fable)'. Mythos came first: its name leaked on 26 March 2026 (Fortune), Anthropic announced Mythos Preview on 7 April 2026, and Fable 5 launched on 9 June 2026. Anthropic's launch post said Mythos-class models sit above its Opus class, but its 22 September Opus 5.5 post says Opus 5.5 performs at Fable 5.1's level on most work and shows it ahead on all nine benchmarks in its table, while the docs still say to start with Opus 5.5 and move to Fable 5.1 when Opus evals fall short. The names are concurrent tiers, not a release sequence: Haiku, Sonnet and Opus were announced together on 4 March 2024 (Haiku shipped 13 March), Fable 5 launched before Sonnet 5 (30 June) and Opus 5 (24 July), and Fable 5 and Mythos 5 were disabled for all customers from 12 June until access was restored on 1 July 2026 (Mythos 5 only for approved US organizations) under a US export-control directive."
+  },
+  {
+    "id": "belief-glasswing",
+    "lane": "myth-check",
+    "title": "Glasswing gave big tech early access to a defense model",
+    "date": null,
+    "url": "https://www.anthropic.com/glasswing",
+    "place": null,
+    "excerpt": "Verdict: Distorted. On 7 April 2026 Anthropic announced Project Glasswing, which gave gated access to Claude Mythos Preview, a general-purpose frontier model it decided not to release generally, to 11 named partners (Amazon Web Services, Apple, Google, Microsoft and NVIDIA, plus Broadcom, Cisco, CrowdStrike, JPMorganChase, the Linux Foundation and Palo Alto Networks) and over 40 other critical-software organisations, so they could find and fix software vulnerabilities, which is what \"defense\" means here (cyber defense, not a purpose-built military model). Glasswing was expanded by about 150 organisations on 2 June 2026, its successors Mythos 5 and 5.1 were still limited to vetted organisations when checked on 22 October 2026, and on 6 October 2026 Glasswing was folded into Anthropic's expanded Cyber Verification Program."
+  }
+]

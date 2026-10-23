@@ -1,0 +1,304 @@
+[
+  {
+    "id": "anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+    "lane": "funding",
+    "title": "Anthropic raises $124 million Series A",
+    "date": "2021-05-28",
+    "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "anthropic-raises-series-b-to-build-safe-reliable-ai",
+    "lane": "funding",
+    "title": "Anthropic raises Series B to build robust AI",
+    "date": "2022-04-29",
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "core-views-on-ai-safety",
+    "lane": "research",
+    "title": "Anthropic's core views on AI safety",
+    "date": "2023-03-08",
+    "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "introducing-claude",
+    "lane": "capability",
+    "title": "Introducing Claude",
+    "date": "2023-03-14",
+    "url": "https://www.anthropic.com/news/introducing-claude",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "anthropic-series-c",
+    "lane": "funding",
+    "title": "Anthropic raises $450 million in Series C",
+    "date": "2023-05-23",
+    "url": "https://www.anthropic.com/news/anthropic-series-c",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "claude-2",
+    "lane": "capability",
+    "title": "Claude 2",
+    "date": "2023-07-11",
+    "url": "https://www.anthropic.com/news/claude-2",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "anthropics-responsible-scaling-policy",
+    "lane": "policy",
+    "title": "Introducing Anthropic's Responsible Scaling Policy",
+    "date": "2023-09-19",
+    "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "claude-3-family",
+    "lane": "capability",
+    "title": "Introducing the next generation of Claude",
+    "date": "2024-03-04",
+    "url": "https://www.anthropic.com/news/claude-3-family",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "mike-krieger-joins-anthropic",
+    "lane": "people",
+    "title": "Mike Krieger joins as Chief Product Officer",
+    "date": "2024-05-15",
+    "url": "https://www.anthropic.com/news/mike-krieger-joins-anthropic",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "challenges-in-red-teaming-ai-systems",
+    "lane": "research",
+    "title": "Challenges in red teaming AI systems",
+    "date": "2024-06-12",
+    "url": "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems",
+    "retrieved_at": "2026-10-22T18:33:14Z"
+  },
+  {
+    "id": "claude-3-5-sonnet",
+    "lane": "capability",
+    "title": "Introducing Claude 3.5 Sonnet",
+    "date": "2024-06-21",
+    "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "announcing-our-updated-responsible-scaling-policy",
+    "lane": "policy",
+    "title": "Our updated Responsible Scaling Policy",
+    "date": "2024-10-15",
+    "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "claude-3-7-sonnet",
+    "lane": "capability",
+    "title": "Claude 3.7 Sonnet and Claude Code",
+    "date": "2025-02-24",
+    "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+    "lane": "funding",
+    "title": "Anthropic raises Series E at $61.5B valuation",
+    "date": "2025-03-03",
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "activating-asl3-protections",
+    "lane": "policy",
+    "title": "Activating AI Safety Level 3 protections",
+    "date": "2025-05-22",
+    "url": "https://www.anthropic.com/news/activating-asl3-protections",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "claude-4",
+    "lane": "capability",
+    "title": "Introducing Claude 4",
+    "date": "2025-05-22",
+    "url": "https://www.anthropic.com/news/claude-4",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "anthropic-raises-series-f-at-usd183b-post-money-valuation",
+    "lane": "funding",
+    "title": "Anthropic raises $13B Series F at $183B valuation",
+    "date": "2025-09-02",
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "expanding-global-operations-to-india",
+    "lane": "people",
+    "title": "Anthropic expands to India with Bengaluru office",
+    "date": "2025-10-07",
+    "url": "https://www.anthropic.com/news/expanding-global-operations-to-india",
+    "retrieved_at": "2026-10-22T18:33:13Z",
+    "place": {
+      "name": "Bengaluru",
+      "lat": 12.9716,
+      "lon": 77.5946
+    }
+  },
+  {
+    "id": "rahul-patil-joins-anthropic",
+    "lane": "people",
+    "title": "Rahul Patil joins as Chief Technology Officer",
+    "date": "2025-10-07",
+    "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "seoul-becomes-third-anthropic-office-in-asia-pacific",
+    "lane": "people",
+    "title": "Seoul becomes Anthropic's third APAC office",
+    "date": "2025-10-23",
+    "url": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific",
+    "retrieved_at": "2026-10-22T18:33:13Z",
+    "place": {
+      "name": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978
+    }
+  },
+  {
+    "id": "opening-our-tokyo-office",
+    "lane": "people",
+    "title": "Anthropic opens Tokyo office",
+    "date": "2025-10-29",
+    "url": "https://www.anthropic.com/news/opening-our-tokyo-office",
+    "retrieved_at": "2026-10-22T18:33:14Z",
+    "place": {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503
+    }
+  },
+  {
+    "id": "disrupting-AI-espionage",
+    "lane": "research",
+    "title": "Disrupting an AI-orchestrated cyber espionage campaign",
+    "date": "2025-11-13",
+    "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "claude-opus-4-5",
+    "lane": "capability",
+    "title": "Introducing Claude Opus 4.5",
+    "date": "2025-11-24",
+    "url": "https://www.anthropic.com/news/claude-opus-4-5",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+    "lane": "funding",
+    "title": "Anthropic raises $30B Series G at $380B valuation",
+    "date": "2026-02-12",
+    "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "detecting-and-preventing-distillation-attacks",
+    "lane": "research",
+    "title": "Detecting and preventing distillation attacks",
+    "date": "2026-02-23",
+    "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "responsible-scaling-policy-v3",
+    "lane": "policy",
+    "title": "Responsible Scaling Policy Version 3.0",
+    "date": "2026-02-24",
+    "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "sydney-fourth-office-asia-pacific",
+    "lane": "people",
+    "title": "Sydney becomes Anthropic's fourth APAC office",
+    "date": "2026-03-10",
+    "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+    "retrieved_at": "2026-10-22T18:33:14Z",
+    "place": {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lon": 151.2093
+    }
+  },
+  {
+    "id": "glasswing-initial-update",
+    "lane": "research",
+    "title": "Project Glasswing: An initial update",
+    "date": "2026-05-22",
+    "url": "https://www.anthropic.com/news/glasswing-initial-update",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "milan-office-opening",
+    "lane": "people",
+    "title": "Anthropic opens Milan office",
+    "date": "2026-05-27",
+    "url": "https://www.anthropic.com/news/milan-office-opening",
+    "retrieved_at": "2026-10-22T18:33:14Z",
+    "place": {
+      "name": "Milan",
+      "lat": 45.4642,
+      "lon": 9.19
+    }
+  },
+  {
+    "id": "series-h",
+    "lane": "funding",
+    "title": "Anthropic raises $65B Series H at $965B valuation",
+    "date": "2026-05-28",
+    "url": "https://www.anthropic.com/news/series-h",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "expanding-project-glasswing",
+    "lane": "research",
+    "title": "Expanding Project Glasswing",
+    "date": "2026-06-02",
+    "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+    "retrieved_at": "2026-10-22T18:33:14Z"
+  },
+  {
+    "id": "claude-fable-5-mythos-5",
+    "lane": "capability",
+    "title": "Claude Fable 5 and Claude Mythos 5",
+    "date": "2026-06-09",
+    "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "claude-opus-5",
+    "lane": "capability",
+    "title": "Introducing Claude Opus 5",
+    "date": "2026-07-24",
+    "url": "https://www.anthropic.com/news/claude-opus-5",
+    "retrieved_at": "2026-10-22T18:33:13Z"
+  },
+  {
+    "id": "singapore-office-opening",
+    "lane": "people",
+    "title": "Singapore office and government MOU | Anthropic",
+    "date": "2026-10-14",
+    "url": "https://www.anthropic.com/news/singapore-office-opening",
+    "retrieved_at": "2026-10-22T18:33:14Z",
+    "place": {
+      "name": "Singapore",
+      "lat": 1.3521,
+      "lon": 103.8198
+    }
+  }
+]
