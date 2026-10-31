@@ -29,10 +29,12 @@ import KpiReadout from "./KpiReadout";
 import MythPanel from "./MythPanel";
 import NodeEvidence from "./NodeEvidence";
 import NodePlayButton from "./NodePlayButton";
+import ObservatoryLink from "./ObservatoryLink";
 import ThemeToggle from "./ThemeToggle";
 import VoiceToolbar from "./VoiceToolbar";
 import { useAskAtlas } from "./useAskAtlas";
 import { useNarration } from "./useNarration";
+import { autoAddedNodes, useObservatoryFeed } from "./useObservatoryFeed";
 
 export type { AtlasNode, Lane, Place };
 
@@ -81,6 +83,7 @@ const failureNotices: Record<VoiceInputError["failure"], string> = {
 type SidebarTab = "timeline" | "myth";
 
 type AtlasProps = {
+  // Curated nodes from data/; the Observatory's auto-added nodes are merged in at runtime.
   nodes: AtlasNode[];
   places: AtlasPlace[];
   beliefs: Belief[];
@@ -89,7 +92,12 @@ type AtlasProps = {
   quizLink: ReactNode;
 };
 
-export default function Atlas({ nodes, places, beliefs, eras, quizLink }: AtlasProps) {
+export default function Atlas({ nodes: curatedNodes, places, beliefs, eras, quizLink }: AtlasProps) {
+  const { items: observatoryItems } = useObservatoryFeed();
+  const nodes = useMemo(
+    () => [...curatedNodes, ...autoAddedNodes(observatoryItems)],
+    [curatedNodes, observatoryItems],
+  );
   const [theme, toggleTheme] = useTheme();
   const laneColor = LANE_COLORS[theme];
 
@@ -546,6 +554,7 @@ export default function Atlas({ nodes, places, beliefs, eras, quizLink }: AtlasP
             <span aria-hidden> · </span>
             showing <span className="text-ink">{visibleNodes.length}</span>
           </p>
+          <ObservatoryLink items={observatoryItems} />
           {quizLink}
           <ThemeToggle theme={theme} onToggle={toggleTheme} />
         </div>
@@ -764,6 +773,11 @@ export default function Atlas({ nodes, places, beliefs, eras, quizLink }: AtlasP
                           >
                             {node.lane}
                           </span>
+                          {node.auto_added && (
+                            <span className="rounded-full border border-hair px-2 py-0.5 text-[11px] text-muted">
+                              auto-added
+                            </span>
+                          )}
                           {node.place && (
                             <span className="flex items-center gap-1">
                               <span
@@ -786,11 +800,11 @@ export default function Atlas({ nodes, places, beliefs, eras, quizLink }: AtlasP
                         onFocusNode={focusNode}
                       />
                       <div className="flex flex-wrap items-center gap-x-3 gap-y-1 px-4 pb-3 pt-1.5 text-xs text-muted">
-                        <NodePlayButton
+                        {!node.auto_added && <NodePlayButton
                           nodeTitle={node.title}
                           status={playback.nodeId === node.id ? playback.status : "idle"}
                           onClick={() => handlePlayNode(node.id)}
-                        />
+                        />}
                         <a
                           href={node.url}
                           target="_blank"

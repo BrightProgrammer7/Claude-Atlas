@@ -29,6 +29,8 @@ export type AtlasNode = {
   attributed_to?: string;
   target_id?: string;
   anthropic_url?: string;
+  // Set only on nodes the Observatory added at runtime (mechanically verified, never in data/).
+  auto_added?: boolean;
 };
 
 // One era of data/eras.json: a guided-tour chapter with its verbatim-sourced stops.

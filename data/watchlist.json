@@ -1,0 +1,9 @@
+[
+  { "org": "Anthropic", "title": "Responsible Scaling Policy updates", "url": "https://www.anthropic.com/rsp-updates" },
+  { "org": "EU AI Act", "title": "EU Artificial Intelligence Act, official text and tracker", "url": "https://artificialintelligenceact.eu/" },
+  { "org": "European Commission", "title": "Guidelines for providers of general-purpose AI models", "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers" },
+  { "org": "United Nations", "title": "High-level Advisory Body on Artificial Intelligence", "url": "https://www.un.org/techenvoy/ai-advisory-body" },
+  { "org": "OECD.AI", "title": "OECD.AI Policy Observatory", "url": "https://oecd.ai/en/" },
+  { "org": "NIST", "title": "NIST Artificial Intelligence", "url": "https://www.nist.gov/artificial-intelligence" },
+  { "org": "UK AI Security Institute", "title": "AI Security Institute", "url": "https://www.aisi.gov.uk/" }
+]
